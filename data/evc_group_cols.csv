@@ -1,0 +1,36 @@
+label,colors
+Tree Cover = 0-9%,#ccff99
+Tree Cover = 10-19%,#b3e687
+Tree Cover = 20-29%,#9ace75
+Tree Cover = 30-39%,#83b663
+Tree Cover = 40-49%,#6c9f52
+Tree Cover = 50-59%,#568842
+Tree Cover = 60-69%,#407132
+Tree Cover = 70-79%,#2b5c22
+Tree Cover = 80-89%,#164713
+Tree Cover = 90-100%,#013301
+Shrub Cover = 0-9%,#d4b27d
+Shrub Cover = 10-19%,#cea36c
+Shrub Cover = 20-29%,#c9935d
+Shrub Cover = 30-39%,#c4844f
+Shrub Cover = 40-49%,#be7342
+Shrub Cover = 50-59%,#b96337
+Shrub Cover = 60-69%,#b3512f
+Shrub Cover = 70-79%,#ac3e28
+Shrub Cover = 80-89%,#a52823
+Shrub Cover = 90-100%,#9e0020
+Herb Cover = 10-19%,#ffcc66
+Herb Cover = 20-29%,#ffbf55
+Herb Cover = 30-39%,#ffb245
+Herb Cover = 40-49%,#ffa536
+Herb Cover = 50-59%,#ff9728
+Herb Cover = 60-69%,#ff871a
+Herb Cover = 70-79%,#ff770c
+Herb Cover = 80-89%,#ff6501
+Herb Cover = 90-100%,#ff4f00
+Open Water,#7FB3D5
+Developed,#808B96
+Agriculture,#808B96
+Sparse Vegetation,#808B96
+Barren,#808B96
+Quarries,#808B96

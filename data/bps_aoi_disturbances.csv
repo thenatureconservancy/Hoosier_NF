@@ -1,0 +1,120 @@
+"","TransitionGroupID","Model_Code","annual_probability","BpS_Name","VALUE","ACRES","REL_PERCENT","annual_dist_acres"
+"1","All Fire","13050_47_48",0.2324918,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,44065.333313
+"2","All Fire","13100_47",0.1077156,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,19.388808
+"3","All Fire","13130_47_50_51",0.0022416,"North-Central Interior Beech-Maple Forest",2071,1468,0.2,3.2906688
+"4","All Fire","13210_47_48_53_57",0.014869,"South-Central Interior Mesophytic Forest",2072,350076,53.9,5205.280044
+"5","All Fire","13260_47",0.2067602,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,1.2405612
+"6","All Fire","13530_47",0.4891022,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,41.0845848
+"7","All Fire","13630_47_53",0.228031,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,121.768554
+"8","All Fire","14010_43_44_47_48_53",0.3002234,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,2642.8665902
+"9","All Fire","14180_47",0.7055306,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,2.8221224
+"10","All Fire","14710_47_48_53_54_57_59_60_61_63",0.0126628,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,305.3127708
+"11","All Fire","14720_44_46_47_48",0.00592,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,242.46544
+"12","All Fire","14790_41_42_47_48_50_51_53",0.0009708,"Central Interior and Appalachian Swamp Systems",2088,11124,1.7,10.7991792
+"13","All Fire","15180_43_47_49_52_62_63_64_65",0.0010006,"North-Central Interior Wet Flatwoods",2091,778,0.1,0.7784668
+"14","All Transitions","13050_47_48",0.3062046,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,58036.488861
+"15","All Transitions","13100_47",0.1163166,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,20.936988
+"16","All Transitions","13130_47_50_51",0.1424086,"North-Central Interior Beech-Maple Forest",2071,1468,0.2,209.0558248
+"17","All Transitions","13210_47_48_53_57",0.019653,"South-Central Interior Mesophytic Forest",2072,350076,53.9,6880.043628
+"18","All Transitions","13260_47",0.229177,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,1.375062
+"19","All Transitions","13530_47",0.4989524,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,41.9120016
+"20","All Transitions","13630_47_53",0.3150016,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,168.2108544
+"21","All Transitions","14010_43_44_47_48_53",0.3539598,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,3115.9081194
+"22","All Transitions","14180_47",0.7858708,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,3.1434832
+"23","All Transitions","14710_47_48_53_54_57_59_60_61_63",0.0349912,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,843.6728232
+"24","All Transitions","14720_44_46_47_48",0.0243868,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,998.8101676
+"25","All Transitions","14790_41_42_47_48_50_51_53",0.0091134,"Central Interior and Appalachian Swamp Systems",2088,11124,1.7,101.3774616
+"26","All Transitions","15180_43_47_49_52_62_63_64_65",0.0040022,"North-Central Interior Wet Flatwoods",2091,778,0.1,3.1137116
+"27","Alternative Succession","13050_47_48",0.0058142,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,1101.994397
+"28","Alternative Succession","13100_47",0.0041186,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,0.741348
+"29","Alternative Succession","13260_47",0.011428,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,0.068568
+"30","Alternative Succession","13530_47",0.0021256,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,0.1785504
+"31","Alternative Succession","13630_47_53",0.0105336,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,5.6249424
+"32","Alternative Succession","14010_43_44_47_48_53",0.002915,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,25.660745
+"33","Alternative Succession","14180_47",0.000834,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,0.003336
+"34","Alternative Succession","14710_47_48_53_54_57_59_60_61_63",0.0083988,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,202.5034668
+"35","Competition or Maintenance","13530_47",0.0047582,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,0.3996888
+"36","Insect or Disease","13210_47_48_53_57",0.0023292,"South-Central Interior Mesophytic Forest",2072,350076,53.9,815.3970192
+"37","Insect or Disease","13260_47",0.0044974,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,0.0269844
+"38","Insect or Disease","13530_47",0.0004932,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,0.0414288
+"39","Insect or Disease","14710_47_48_53_54_57_59_60_61_63",0.0030758,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,74.1606138
+"40","Mixed Fire","13050_47_48",0.0049422,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,936.719877
+"41","Mixed Fire","13100_47",0.0061856,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,1.113408
+"42","Mixed Fire","13210_47_48_53_57",0.0019268,"South-Central Interior Mesophytic Forest",2072,350076,53.9,674.5264368
+"43","Mixed Fire","13260_47",0.0053714,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,0.0322284
+"44","Mixed Fire","13530_47",0.0008268,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,0.0694512
+"45","Mixed Fire","13630_47_53",0.0620088,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,33.1126992
+"46","Mixed Fire","14010_43_44_47_48_53",0.0639178,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,562.6683934
+"47","Mixed Fire","14180_47",0.0133858,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,0.0535432
+"48","Mixed Fire","14710_47_48_53_54_57_59_60_61_63",0.0025526,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,61.5457386
+"49","Native Grazing","13050_47_48",0.0673148,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,12758.510618
+"50","Native Grazing","13100_47",0.003583,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,0.64494
+"51","Native Grazing","13630_47_53",0.0748418,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,39.9655212
+"52","Native Grazing","14010_43_44_47_48_53",0.0504004,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,443.6747212
+"53","Native Grazing","14180_47",0.0792892,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,0.3171568
+"54","Non Fire Disturbances","13050_47_48",0.0678986,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,12869.161151
+"55","Non Fire Disturbances","13100_47",0.0044824,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,0.806832
+"56","Non Fire Disturbances","13130_47_50_51",0.140167,"North-Central Interior Beech-Maple Forest",2071,1468,0.2,205.765156
+"57","Non Fire Disturbances","13210_47_48_53_57",0.004784,"South-Central Interior Mesophytic Forest",2072,350076,53.9,1674.763584
+"58","Non Fire Disturbances","13260_47",0.0109888,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,0.0659328
+"59","Non Fire Disturbances","13530_47",0.0077246,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,0.6488664
+"60","Non Fire Disturbances","13630_47_53",0.076437,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,40.817358
+"61","Non Fire Disturbances","14010_43_44_47_48_53",0.0508214,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,447.3807842
+"62","Non Fire Disturbances","14180_47",0.0795062,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,0.3180248
+"63","Non Fire Disturbances","14710_47_48_53_54_57_59_60_61_63",0.0139296,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,335.8565856
+"64","Non Fire Disturbances","14720_44_46_47_48",0.0184668,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,756.3447276
+"65","Non Fire Disturbances","14790_41_42_47_48_50_51_53",0.0081426,"Central Interior and Appalachian Swamp Systems",2088,11124,1.7,90.5782824
+"66","Non Fire Disturbances","15180_43_47_49_52_62_63_64_65",0.0030016,"North-Central Interior Wet Flatwoods",2091,778,0.1,2.3352448
+"67","Non Replacement Fire","13050_47_48",0.051684,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,9795.92694
+"68","Non Replacement Fire","13100_47",0.1015996,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,18.287928
+"69","Non Replacement Fire","13130_47_50_51",0.0012282,"North-Central Interior Beech-Maple Forest",2071,1468,0.2,1.8029976
+"70","Non Replacement Fire","13210_47_48_53_57",0.0137,"South-Central Interior Mesophytic Forest",2072,350076,53.9,4796.0412
+"71","Non Replacement Fire","13260_47",0.2014522,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,1.2087132
+"72","Non Replacement Fire","13530_47",0.4791296,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,40.2468864
+"73","Non Replacement Fire","13630_47_53",0.1939846,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,103.5877764
+"74","Non Replacement Fire","14010_43_44_47_48_53",0.2472806,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,2176.8111218
+"75","Non Replacement Fire","14180_47",0.0603882,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,0.2415528
+"76","Non Replacement Fire","14710_47_48_53_54_57_59_60_61_63",0.011024,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,265.799664
+"77","Non Replacement Fire","14720_44_46_47_48",0.004936,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,202.163752
+"78","Optional 1","14710_47_48_53_54_57_59_60_61_63",0.0032176,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,77.5795536
+"79","Optional 1","14720_44_46_47_48",0.0035834,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,146.7653138
+"80","Optional 2","14720_44_46_47_48",0.0098856,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,404.8845192
+"81","Optional Types","14710_47_48_53_54_57_59_60_61_63",0.0032176,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,77.5795536
+"82","Optional Types","14720_44_46_47_48",0.013469,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,551.649833
+"83","Replacement Fire","13050_47_48",0.1808078,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,34269.406373
+"84","Replacement Fire","13100_47",0.006116,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,1.10088
+"85","Replacement Fire","13130_47_50_51",0.0010134,"North-Central Interior Beech-Maple Forest",2071,1468,0.2,1.4876712
+"86","Replacement Fire","13210_47_48_53_57",0.001169,"South-Central Interior Mesophytic Forest",2072,350076,53.9,409.238844
+"87","Replacement Fire","13260_47",0.005308,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,0.031848
+"88","Replacement Fire","13530_47",0.0099726,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,0.8376984
+"89","Replacement Fire","13630_47_53",0.0340464,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,18.1807776
+"90","Replacement Fire","14010_43_44_47_48_53",0.0529428,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,466.0554684
+"91","Replacement Fire","14180_47",0.6451424,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,2.5805696
+"92","Replacement Fire","14710_47_48_53_54_57_59_60_61_63",0.0016388,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,39.5131068
+"93","Replacement Fire","14720_44_46_47_48",0.000984,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,40.301688
+"94","Replacement Fire","14790_41_42_47_48_50_51_53",0.0009708,"Central Interior and Appalachian Swamp Systems",2088,11124,1.7,10.7991792
+"95","Replacement Fire","15180_43_47_49_52_62_63_64_65",0.0010006,"North-Central Interior Wet Flatwoods",2091,778,0.1,0.7784668
+"96","Surface Fire","13050_47_48",0.0467418,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,8859.207063
+"97","Surface Fire","13100_47",0.095414,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,17.17452
+"98","Surface Fire","13130_47_50_51",0.0012282,"North-Central Interior Beech-Maple Forest",2071,1468,0.2,1.8029976
+"99","Surface Fire","13210_47_48_53_57",0.0117732,"South-Central Interior Mesophytic Forest",2072,350076,53.9,4121.5147632
+"100","Surface Fire","13260_47",0.1960808,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,1.1764848
+"101","Surface Fire","13530_47",0.4783028,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,40.1774352
+"102","Surface Fire","13630_47_53",0.1319758,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,70.4750772
+"103","Surface Fire","14010_43_44_47_48_53",0.1833628,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,1614.1427284
+"104","Surface Fire","14180_47",0.0470024,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,0.1880096
+"105","Surface Fire","14710_47_48_53_54_57_59_60_61_63",0.0084714,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,204.2539254
+"106","Surface Fire","14720_44_46_47_48",0.004936,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,202.163752
+"107","Wind or Weather or Stress","13050_47_48",0.0005838,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,189535,29.2,110.650533
+"108","Wind or Weather or Stress","13100_47",0.0008994,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,0,0.161892
+"109","Wind or Weather or Stress","13130_47_50_51",0.140167,"North-Central Interior Beech-Maple Forest",2071,1468,0.2,205.765156
+"110","Wind or Weather or Stress","13210_47_48_53_57",0.0024548,"South-Central Interior Mesophytic Forest",2072,350076,53.9,859.3665648
+"111","Wind or Weather or Stress","13260_47",0.0064914,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,6,0,0.0389484
+"112","Wind or Weather or Stress","13530_47",0.0024732,"Southern Appalachian Low-Elevation Pine Forest",2076,84,0,0.2077488
+"113","Wind or Weather or Stress","13630_47_53",0.0015952,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,534,0.1,0.8518368
+"114","Wind or Weather or Stress","14010_43_44_47_48_53",0.000421,"Central Interior Highlands Calcareous Glade and Barrens",2079,8803,1.4,3.706063
+"115","Wind or Weather or Stress","14180_47",0.000217,"Pennyroyal Karst Plain Prairie and Barrens",2081,4,0,0.000868
+"116","Wind or Weather or Stress","14710_47_48_53_54_57_59_60_61_63",0.0076362,"Central Interior and Appalachian Floodplain Systems",2084,24111,3.7,184.1164182
+"117","Wind or Weather or Stress","14720_44_46_47_48",0.0049978,"Central Interior and Appalachian Riparian Systems",2085,40957,6.3,204.6948946
+"118","Wind or Weather or Stress","14790_41_42_47_48_50_51_53",0.0081426,"Central Interior and Appalachian Swamp Systems",2088,11124,1.7,90.5782824
+"119","Wind or Weather or Stress","15180_43_47_49_52_62_63_64_65",0.0030016,"North-Central Interior Wet Flatwoods",2091,778,0.1,2.3352448

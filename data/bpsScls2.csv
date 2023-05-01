@@ -1,0 +1,131 @@
+"","model_label","Model_Code","refLabel","refPercent","BpS_Name","Var1","Var2","Freq","BPS_CODE","ZONE","total_count","currentPercent"
+"1","13050_47_48_A","13050_47_48","A",39,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,1,657,13050,47,852248,0
+"2","13050_47_48_B","13050_47_48","B",2,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,2,2,13050,47,852248,0
+"3","13050_47_48_C","13050_47_48","C",36,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,3,631681,13050,47,852248,74
+"4","13050_47_48_D","13050_47_48","D",20,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,4,75,13050,47,852248,0
+"5","13050_47_48_E","13050_47_48","E",3,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,5,5322,13050,47,852248,0
+"6","13050_47_48_Agriculture","13050_47_48","Agriculture",0,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,180,102055,13050,47,852248,11
+"7","13050_47_48_Developed","13050_47_48","Developed",0,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,120,45124,13050,47,852248,5
+"8","13050_47_48_Water","13050_47_48","Water",0,"Southern Interior Low Plateau Dry-Mesic Oak Forest",NA,NA,NA,NA,NA,NA,NA
+"9","13050_47_48_UN","13050_47_48","UN",0,"Southern Interior Low Plateau Dry-Mesic Oak Forest",NA,NA,NA,NA,NA,NA,NA
+"10","13050_47_48_UE","13050_47_48","UE",0,"Southern Interior Low Plateau Dry-Mesic Oak Forest",2067,7,67332,13050,47,852248,7
+"11","13100_47_A","13100_47","A",2,"North-Central Interior Dry-Mesic Oak Forest and Woodland",NA,NA,NA,NA,NA,NA,NA
+"12","13100_47_B","13100_47","B",7,"North-Central Interior Dry-Mesic Oak Forest and Woodland",NA,NA,NA,NA,NA,NA,NA
+"13","13100_47_C","13100_47","C",27,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,3,21,13100,47,808,2
+"14","13100_47_D","13100_47","D",61,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,4,345,13100,47,808,42
+"15","13100_47_E","13100_47","E",3,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,5,222,13100,47,808,27
+"16","13100_47_Agriculture","13100_47","Agriculture",0,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,180,101,13100,47,808,12
+"17","13100_47_Developed","13100_47","Developed",0,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,120,58,13100,47,808,7
+"18","13100_47_Water","13100_47","Water",0,"North-Central Interior Dry-Mesic Oak Forest and Woodland",NA,NA,NA,NA,NA,NA,NA
+"19","13100_47_UN","13100_47","UN",0,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,6,4,13100,47,808,0
+"20","13100_47_UE","13100_47","UE",0,"North-Central Interior Dry-Mesic Oak Forest and Woodland",2070,7,57,13100,47,808,7
+"21","13130_47_50_51_A","13130_47_50_51","A",8,"North-Central Interior Beech-Maple Forest",2071,1,3,13130,47,6602,0
+"22","13130_47_50_51_B","13130_47_50_51","B",9,"North-Central Interior Beech-Maple Forest",2071,2,2,13130,47,6602,0
+"23","13130_47_50_51_C","13130_47_50_51","C",14,"North-Central Interior Beech-Maple Forest",2071,3,2140,13130,47,6602,32
+"24","13130_47_50_51_D","13130_47_50_51","D",69,"North-Central Interior Beech-Maple Forest",2071,4,67,13130,47,6602,1
+"25","13130_47_50_51_E","13130_47_50_51","E",NA,"North-Central Interior Beech-Maple Forest",NA,NA,NA,NA,NA,NA,NA
+"26","13130_47_50_51_Agriculture","13130_47_50_51","Agriculture",0,"North-Central Interior Beech-Maple Forest",2071,180,3282,13130,47,6602,49
+"27","13130_47_50_51_Developed","13130_47_50_51","Developed",0,"North-Central Interior Beech-Maple Forest",2071,120,485,13130,47,6602,7
+"28","13130_47_50_51_Water","13130_47_50_51","Water",0,"North-Central Interior Beech-Maple Forest",NA,NA,NA,NA,NA,NA,NA
+"29","13130_47_50_51_UN","13130_47_50_51","UN",0,"North-Central Interior Beech-Maple Forest",NA,NA,NA,NA,NA,NA,NA
+"30","13130_47_50_51_UE","13130_47_50_51","UE",0,"North-Central Interior Beech-Maple Forest",2071,7,623,13130,47,6602,9
+"31","13210_47_48_53_57_A","13210_47_48_53_57","A",2,"South-Central Interior Mesophytic Forest",2072,1,2339,13210,47,1574119,0
+"32","13210_47_48_53_57_B","13210_47_48_53_57","B",11,"South-Central Interior Mesophytic Forest",2072,2,1151376,13210,47,1574119,73
+"33","13210_47_48_53_57_C","13210_47_48_53_57","C",32,"South-Central Interior Mesophytic Forest",2072,3,17072,13210,47,1574119,1
+"34","13210_47_48_53_57_D","13210_47_48_53_57","D",55,"South-Central Interior Mesophytic Forest",2072,4,137,13210,47,1574119,0
+"35","13210_47_48_53_57_E","13210_47_48_53_57","E",NA,"South-Central Interior Mesophytic Forest",NA,NA,NA,NA,NA,NA,NA
+"36","13210_47_48_53_57_Agriculture","13210_47_48_53_57","Agriculture",0,"South-Central Interior Mesophytic Forest",2072,180,229411,13210,47,1574119,14
+"37","13210_47_48_53_57_Developed","13210_47_48_53_57","Developed",0,"South-Central Interior Mesophytic Forest",2072,120,87995,13210,47,1574119,5
+"38","13210_47_48_53_57_Water","13210_47_48_53_57","Water",0,"South-Central Interior Mesophytic Forest",NA,NA,NA,NA,NA,NA,NA
+"39","13210_47_48_53_57_UN","13210_47_48_53_57","UN",0,"South-Central Interior Mesophytic Forest",2072,6,1282,13210,47,1574119,0
+"40","13210_47_48_53_57_UE","13210_47_48_53_57","UE",0,"South-Central Interior Mesophytic Forest",2072,7,84507,13210,47,1574119,5
+"41","13260_47_A","13260_47","A",15,"South-Central Interior/Upper Coastal Plain Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"42","13260_47_B","13260_47","B",14,"South-Central Interior/Upper Coastal Plain Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"43","13260_47_C","13260_47","C",20,"South-Central Interior/Upper Coastal Plain Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"44","13260_47_D","13260_47","D",38,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,4,13,13260,47,29,44
+"45","13260_47_E","13260_47","E",13,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,5,7,13260,47,29,24
+"46","13260_47_Agriculture","13260_47","Agriculture",0,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,180,2,13260,47,29,6
+"47","13260_47_Developed","13260_47","Developed",0,"South-Central Interior/Upper Coastal Plain Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"48","13260_47_Water","13260_47","Water",0,"South-Central Interior/Upper Coastal Plain Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"49","13260_47_UN","13260_47","UN",0,"South-Central Interior/Upper Coastal Plain Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"50","13260_47_UE","13260_47","UE",0,"South-Central Interior/Upper Coastal Plain Flatwoods",2074,7,7,13260,47,29,24
+"51","13530_47_A","13530_47","A",15,"Southern Appalachian Low-Elevation Pine Forest",NA,NA,NA,NA,NA,NA,NA
+"52","13530_47_B","13530_47","B",3,"Southern Appalachian Low-Elevation Pine Forest",NA,NA,NA,NA,NA,NA,NA
+"53","13530_47_C","13530_47","C",36,"Southern Appalachian Low-Elevation Pine Forest",NA,NA,NA,NA,NA,NA,NA
+"54","13530_47_D","13530_47","D",43,"Southern Appalachian Low-Elevation Pine Forest",2076,4,31,13530,47,376,8
+"55","13530_47_E","13530_47","E",3,"Southern Appalachian Low-Elevation Pine Forest",2076,5,250,13530,47,376,66
+"56","13530_47_Agriculture","13530_47","Agriculture",0,"Southern Appalachian Low-Elevation Pine Forest",2076,180,54,13530,47,376,14
+"57","13530_47_Developed","13530_47","Developed",0,"Southern Appalachian Low-Elevation Pine Forest",2076,120,13,13530,47,376,3
+"58","13530_47_Water","13530_47","Water",0,"Southern Appalachian Low-Elevation Pine Forest",NA,NA,NA,NA,NA,NA,NA
+"59","13530_47_UN","13530_47","UN",0,"Southern Appalachian Low-Elevation Pine Forest",2076,6,3,13530,47,376,0
+"60","13530_47_UE","13530_47","UE",0,"Southern Appalachian Low-Elevation Pine Forest",2076,7,25,13530,47,376,6
+"61","13630_47_53_A","13630_47_53","A",17,"Central Interior Highlands Dry Acidic Glade and Barrens",NA,NA,NA,NA,NA,NA,NA
+"62","13630_47_53_B","13630_47_53","B",30,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,2,1,13630,47,2400,0
+"63","13630_47_53_C","13630_47_53","C",36,"Central Interior Highlands Dry Acidic Glade and Barrens",NA,NA,NA,NA,NA,NA,NA
+"64","13630_47_53_D","13630_47_53","D",14,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,4,49,13630,47,2400,2
+"65","13630_47_53_E","13630_47_53","E",3,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,5,2084,13630,47,2400,86
+"66","13630_47_53_Agriculture","13630_47_53","Agriculture",0,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,180,102,13630,47,2400,4
+"67","13630_47_53_Developed","13630_47_53","Developed",0,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,120,56,13630,47,2400,2
+"68","13630_47_53_Water","13630_47_53","Water",0,"Central Interior Highlands Dry Acidic Glade and Barrens",NA,NA,NA,NA,NA,NA,NA
+"69","13630_47_53_UN","13630_47_53","UN",0,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,6,4,13630,47,2400,0
+"70","13630_47_53_UE","13630_47_53","UE",0,"Central Interior Highlands Dry Acidic Glade and Barrens",2078,7,104,13630,47,2400,4
+"71","14010_43_44_47_48_53_A","14010_43_44_47_48_53","A",58,"Central Interior Highlands Calcareous Glade and Barrens",NA,NA,NA,NA,NA,NA,NA
+"72","14010_43_44_47_48_53_B","14010_43_44_47_48_53","B",7,"Central Interior Highlands Calcareous Glade and Barrens",2079,2,1,14010,47,39581,0
+"73","14010_43_44_47_48_53_C","14010_43_44_47_48_53","C",23,"Central Interior Highlands Calcareous Glade and Barrens",NA,NA,NA,NA,NA,NA,NA
+"74","14010_43_44_47_48_53_D","14010_43_44_47_48_53","D",10,"Central Interior Highlands Calcareous Glade and Barrens",2079,4,6,14010,47,39581,0
+"75","14010_43_44_47_48_53_E","14010_43_44_47_48_53","E",2,"Central Interior Highlands Calcareous Glade and Barrens",2079,5,1,14010,47,39581,0
+"76","14010_43_44_47_48_53_Agriculture","14010_43_44_47_48_53","Agriculture",0,"Central Interior Highlands Calcareous Glade and Barrens",2079,180,7116,14010,47,39581,17
+"77","14010_43_44_47_48_53_Developed","14010_43_44_47_48_53","Developed",0,"Central Interior Highlands Calcareous Glade and Barrens",2079,120,2330,14010,47,39581,5
+"78","14010_43_44_47_48_53_Water","14010_43_44_47_48_53","Water",0,"Central Interior Highlands Calcareous Glade and Barrens",NA,NA,NA,NA,NA,NA,NA
+"79","14010_43_44_47_48_53_UN","14010_43_44_47_48_53","UN",0,"Central Interior Highlands Calcareous Glade and Barrens",2079,6,25384,14010,47,39581,64
+"80","14010_43_44_47_48_53_UE","14010_43_44_47_48_53","UE",0,"Central Interior Highlands Calcareous Glade and Barrens",2079,7,4743,14010,47,39581,11
+"81","14180_47_A","14180_47","A",72,"Pennyroyal Karst Plain Prairie and Barrens",NA,NA,NA,NA,NA,NA,NA
+"82","14180_47_B","14180_47","B",4,"Pennyroyal Karst Plain Prairie and Barrens",NA,NA,NA,NA,NA,NA,NA
+"83","14180_47_C","14180_47","C",20,"Pennyroyal Karst Plain Prairie and Barrens",2081,3,4,14180,47,16,25
+"84","14180_47_D","14180_47","D",4,"Pennyroyal Karst Plain Prairie and Barrens",NA,NA,NA,NA,NA,NA,NA
+"85","14180_47_E","14180_47","E",NA,"Pennyroyal Karst Plain Prairie and Barrens",NA,NA,NA,NA,NA,NA,NA
+"86","14180_47_Agriculture","14180_47","Agriculture",0,"Pennyroyal Karst Plain Prairie and Barrens",2081,180,5,14180,47,16,31
+"87","14180_47_Developed","14180_47","Developed",0,"Pennyroyal Karst Plain Prairie and Barrens",2081,120,3,14180,47,16,18
+"88","14180_47_Water","14180_47","Water",0,"Pennyroyal Karst Plain Prairie and Barrens",NA,NA,NA,NA,NA,NA,NA
+"89","14180_47_UN","14180_47","UN",0,"Pennyroyal Karst Plain Prairie and Barrens",NA,NA,NA,NA,NA,NA,NA
+"90","14180_47_UE","14180_47","UE",0,"Pennyroyal Karst Plain Prairie and Barrens",2081,7,4,14180,47,16,25
+"91","14710_47_48_53_54_57_59_60_61_63_A","14710_47_48_53_54_57_59_60_61_63","A",9,"Central Interior and Appalachian Floodplain Systems",2084,1,133,14710,47,108414,0
+"92","14710_47_48_53_54_57_59_60_61_63_B","14710_47_48_53_54_57_59_60_61_63","B",25,"Central Interior and Appalachian Floodplain Systems",2084,2,9175,14710,47,108414,8
+"93","14710_47_48_53_54_57_59_60_61_63_C","14710_47_48_53_54_57_59_60_61_63","C",6,"Central Interior and Appalachian Floodplain Systems",2084,3,57483,14710,47,108414,53
+"94","14710_47_48_53_54_57_59_60_61_63_D","14710_47_48_53_54_57_59_60_61_63","D",12,"Central Interior and Appalachian Floodplain Systems",2084,4,368,14710,47,108414,0
+"95","14710_47_48_53_54_57_59_60_61_63_E","14710_47_48_53_54_57_59_60_61_63","E",48,"Central Interior and Appalachian Floodplain Systems",2084,5,242,14710,47,108414,0
+"96","14710_47_48_53_54_57_59_60_61_63_Agriculture","14710_47_48_53_54_57_59_60_61_63","Agriculture",0,"Central Interior and Appalachian Floodplain Systems",2084,180,22230,14710,47,108414,20
+"97","14710_47_48_53_54_57_59_60_61_63_Developed","14710_47_48_53_54_57_59_60_61_63","Developed",0,"Central Interior and Appalachian Floodplain Systems",2084,120,7141,14710,47,108414,6
+"98","14710_47_48_53_54_57_59_60_61_63_Water","14710_47_48_53_54_57_59_60_61_63","Water",0,"Central Interior and Appalachian Floodplain Systems",NA,NA,NA,NA,NA,NA,NA
+"99","14710_47_48_53_54_57_59_60_61_63_UN","14710_47_48_53_54_57_59_60_61_63","UN",0,"Central Interior and Appalachian Floodplain Systems",2084,6,3796,14710,47,108414,3
+"100","14710_47_48_53_54_57_59_60_61_63_UE","14710_47_48_53_54_57_59_60_61_63","UE",0,"Central Interior and Appalachian Floodplain Systems",2084,7,7846,14710,47,108414,7
+"101","14720_44_46_47_48_A","14720_44_46_47_48","A",17,"Central Interior and Appalachian Riparian Systems",2085,1,2071,14720,47,184162,1
+"102","14720_44_46_47_48_B","14720_44_46_47_48","B",23,"Central Interior and Appalachian Riparian Systems",2085,2,88874,14720,47,184162,48
+"103","14720_44_46_47_48_C","14720_44_46_47_48","C",13,"Central Interior and Appalachian Riparian Systems",2085,3,22523,14720,47,184162,12
+"104","14720_44_46_47_48_D","14720_44_46_47_48","D",38,"Central Interior and Appalachian Riparian Systems",2085,4,29,14720,47,184162,0
+"105","14720_44_46_47_48_E","14720_44_46_47_48","E",9,"Central Interior and Appalachian Riparian Systems",2085,5,1149,14720,47,184162,0
+"106","14720_44_46_47_48_Agriculture","14720_44_46_47_48","Agriculture",0,"Central Interior and Appalachian Riparian Systems",2085,180,43557,14720,47,184162,23
+"107","14720_44_46_47_48_Developed","14720_44_46_47_48","Developed",0,"Central Interior and Appalachian Riparian Systems",2085,120,12633,14720,47,184162,6
+"108","14720_44_46_47_48_Water","14720_44_46_47_48","Water",0,"Central Interior and Appalachian Riparian Systems",NA,NA,NA,NA,NA,NA,NA
+"109","14720_44_46_47_48_UN","14720_44_46_47_48","UN",0,"Central Interior and Appalachian Riparian Systems",NA,NA,NA,NA,NA,NA,NA
+"110","14720_44_46_47_48_UE","14720_44_46_47_48","UE",0,"Central Interior and Appalachian Riparian Systems",2085,7,13326,14720,47,184162,7
+"111","14790_41_42_47_48_50_51_53_A","14790_41_42_47_48_50_51_53","A",24,"Central Interior and Appalachian Swamp Systems",2088,1,1,14790,47,50019,0
+"112","14790_41_42_47_48_50_51_53_B","14790_41_42_47_48_50_51_53","B",36,"Central Interior and Appalachian Swamp Systems",2088,2,106,14790,47,50019,0
+"113","14790_41_42_47_48_50_51_53_C","14790_41_42_47_48_50_51_53","C",40,"Central Interior and Appalachian Swamp Systems",2088,3,29426,14790,47,50019,58
+"114","14790_41_42_47_48_50_51_53_D","14790_41_42_47_48_50_51_53","D",NA,"Central Interior and Appalachian Swamp Systems",NA,NA,NA,NA,NA,NA,NA
+"115","14790_41_42_47_48_50_51_53_E","14790_41_42_47_48_50_51_53","E",NA,"Central Interior and Appalachian Swamp Systems",NA,NA,NA,NA,NA,NA,NA
+"116","14790_41_42_47_48_50_51_53_Agriculture","14790_41_42_47_48_50_51_53","Agriculture",0,"Central Interior and Appalachian Swamp Systems",2088,180,11626,14790,47,50019,23
+"117","14790_41_42_47_48_50_51_53_Developed","14790_41_42_47_48_50_51_53","Developed",0,"Central Interior and Appalachian Swamp Systems",2088,120,3352,14790,47,50019,6
+"118","14790_41_42_47_48_50_51_53_Water","14790_41_42_47_48_50_51_53","Water",0,"Central Interior and Appalachian Swamp Systems",NA,NA,NA,NA,NA,NA,NA
+"119","14790_41_42_47_48_50_51_53_UN","14790_41_42_47_48_50_51_53","UN",0,"Central Interior and Appalachian Swamp Systems",2088,6,1143,14790,47,50019,2
+"120","14790_41_42_47_48_50_51_53_UE","14790_41_42_47_48_50_51_53","UE",0,"Central Interior and Appalachian Swamp Systems",2088,7,4365,14790,47,50019,8
+"121","15180_43_47_49_52_62_63_64_65_A","15180_43_47_49_52_62_63_64_65","A",11,"North-Central Interior Wet Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"122","15180_43_47_49_52_62_63_64_65_B","15180_43_47_49_52_62_63_64_65","B",16,"North-Central Interior Wet Flatwoods",2091,2,514,15180,47,3497,14
+"123","15180_43_47_49_52_62_63_64_65_C","15180_43_47_49_52_62_63_64_65","C",73,"North-Central Interior Wet Flatwoods",2091,3,5,15180,47,3497,0
+"124","15180_43_47_49_52_62_63_64_65_D","15180_43_47_49_52_62_63_64_65","D",NA,"North-Central Interior Wet Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"125","15180_43_47_49_52_62_63_64_65_E","15180_43_47_49_52_62_63_64_65","E",NA,"North-Central Interior Wet Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"126","15180_43_47_49_52_62_63_64_65_Agriculture","15180_43_47_49_52_62_63_64_65","Agriculture",0,"North-Central Interior Wet Flatwoods",2091,180,2302,15180,47,3497,65
+"127","15180_43_47_49_52_62_63_64_65_Developed","15180_43_47_49_52_62_63_64_65","Developed",0,"North-Central Interior Wet Flatwoods",2091,120,434,15180,47,3497,12
+"128","15180_43_47_49_52_62_63_64_65_Water","15180_43_47_49_52_62_63_64_65","Water",0,"North-Central Interior Wet Flatwoods",NA,NA,NA,NA,NA,NA,NA
+"129","15180_43_47_49_52_62_63_64_65_UN","15180_43_47_49_52_62_63_64_65","UN",0,"North-Central Interior Wet Flatwoods",2091,6,15,15180,47,3497,0
+"130","15180_43_47_49_52_62_63_64_65_UE","15180_43_47_49_52_62_63_64_65","UE",0,"North-Central Interior Wet Flatwoods",2091,7,227,15180,47,3497,6

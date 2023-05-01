@@ -1,0 +1,46 @@
+label,colors
+Tree Height = 1-5 m,#ccff99
+Tree Height = 5-10 m,#bef091
+Tree Height = 10-15 m,#b0e288
+Tree Height = 15-20 m,#a3d380
+Tree Height = 20-25 m,#95c577
+Tree Height = 25-30 m,#89b76f
+Tree Height = 35-40 m,#7ca966
+Tree Height = 40-45 m,#709b5e
+Tree Height = 45-50 m,#658e56
+Tree Height = 50-55 m,#59804e
+Tree Height = 55-60 m,#4e7345
+Tree Height = 60-65 m,#44663d
+Tree Height = 65-70 m,#3a5935
+Tree Height = 70-75 m,#304d2d
+Tree Height = 75-80 m,#274126
+Tree Height = 80-85 m,#1e351e
+Tree Height = 85-90 m,#162a16
+Tree Height = 90-95 m,#0e1f0e
+Tree Height = 95-100 m,#001500
+Shrub Height = 0.1-0.2 m,#d4b27d
+Shrub Height = 0.2-0.3 m,#cea36c
+Shrub Height = 0.3-0.4 m,#c9935d
+Shrub Height = 0.4-0.5 m,#c4844f
+Shrub Height = 0.5-0.6 m,#be7342
+Shrub Height = 0.6-0.7 m,#b96337
+Shrub Height = 0.7-0.8 m,#b3512f
+Shrub Height = 0.8-0.9 m,#ac3e28
+Shrub Height = 0.9-1.0 m,#a52823
+Shrub Height = 1-5 m,#9e0020
+Herb Height = 0.1-0.2 m,#ffcc66
+Herb Height = 0.2-0.3 m,#ffbf55
+Herb Height = 0.3-0.4 m,#ffb245
+Herb Height = 0.4-0.5 m,#ffa536
+Herb Height = 0.5-0.6 m,#ff9728
+Herb Height = 0.6-0.7 m,#ff871a
+Herb Height = 0.7-0.8 m,#ff770c
+Herb Height = 0.8-0.9 m,#ff6501
+Herb Height = 0.9-1.0 m,#ff4f00
+Herb Height = 1-5 m,#ff3300
+Open Water,#7FB3D5
+Developed,#808B96
+Agriculture,#808B96
+Sparse Vegetation,#808B96
+Barren,#808B96
+Quarries,#808B96

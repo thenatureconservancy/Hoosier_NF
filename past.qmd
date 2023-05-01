@@ -1,0 +1,204 @@
+---
+title: "Past"
+---
+
+LANDFIRE's Biophysical Settings (BpSs, aka "Historical Ecosystems") represent:
+
+>"_...the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. BpS models are based on both the current biophysical environment and an approximation of the historical disturbance regime_." 
+>
+> --- [Read more](https://landfire.gov/bps.php){target="blank"}.
+
+Check out this 3-minute tutorial for a quick refresher on the [basics of Biophysical Settings Models](https://youtu.be/xjaWJCe7udQ){target="blank"}.
+
+Use this page as a starting point to explore the most prevalent BpSs in the SRFSN Wyoming Sagebrush Subregion. In addition to the charts and maps, the historical disturbance data can be directly accessed using this site. 
+
+## Summary
+
+
+
+## Top 10 Biophysical Settings
+
+<br>
+
+
+```{r bps chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=10}
+library(tidyverse)
+library(scales)
+library(stringr)
+
+bps_data <- read.csv("data/bps_aoi_attributes.csv")
+
+bpsname <- bps_data %>%
+  group_by(BPS_NAME) %>%
+  summarize(ACRES = sum(ACRES),
+            REL_PERCENT = sum(REL_PERCENT)) %>%
+  arrange(desc(REL_PERCENT)) %>%
+  top_n(n = 10, wt = REL_PERCENT)
+
+# plot
+bpsChart <- 
+  ggplot(data = bpsname, aes(x = BPS_NAME, y = REL_PERCENT)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Top 10 Biophysical Settings",
+    subtitle = "Represents dominant vegetation systems pre-European colonization",
+    caption = "Data from landfire.gov.",
+    x = "",
+    y = "Percent of landscape") +
+  scale_x_discrete(limits = rev(bpsname$BPS_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
+  coord_flip() +
+  theme_bw(base_size = 14)
+
+
+bpsChart
+```
+
+
+
+## Most Prevalent Biophysical Settings
+
+<br>
+
+![](images/bps.jpg){width=100%}
+
+<br>
+
+## Historic Annual Acres Burned (per ecosystem)
+
+```{r fire bar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
+# read bps attribute table .csv and summarize
+annualFire <- bps_data %>%
+  mutate(annual_fire_acres = ((1/FRI_ALLFIR)*ACRES)) %>%
+  filter(BPS_NAME != 'Open Water') %>%
+  group_by(BPS_NAME) %>%
+  summarize(acres = sum(annual_fire_acres)) %>%
+  arrange(desc(acres)) %>%
+  top_n(n = 10, wt = acres)
+
+# plot
+fireChart <- 
+  ggplot(data = annualFire, aes(x = BPS_NAME, y = acres)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Cumulative estimates of all fire types prior to pre-European colonization",
+    subtitle = "",
+    caption = "\nData from landfire.gov.",
+    x = "",
+    y = "Acres") +
+  scale_x_discrete(limits = rev(annualFire$BPS_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
+  scale_y_continuous(name = 'Acres', labels = comma) +
+  coord_flip() +
+  theme_bw(base_size = 14) +
+  theme(plot.margin = margin(10, 30, 0, 0))
+
+fireChart
+
+# if the plot looks good, save it
+ggsave("./OUTPUTS/fireChart.png", width = 12, height = 5)
+```
+
+<br>
+
+## Top Historical Fire Regimes
+
+![](images/mfri.jpg){width=100%}
+
+
+## Historical Disturbances (per ecosystem)
+
+```{r all disturbances, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+
+# Load packages
+library(tidyverse)
+library(crosstalk)
+library(ggsci)
+library(scales)
+library(plotly)
+
+
+# This code reads a CSV file named "bps_aoi_disturbances.csv" from the "data" directory into a data frame.
+bps_aoi_disturbances <- read_csv("data/bps_aoi_disturbances.csv") 
+
+# The data frame is then filtered to exclude certain values in the "TransitionGroupID" column. 
+# The excluded values are: "All Fire", "All Transitions", "Alternative Succession", 
+# "Non Fire Disturbances", "Non Replacement Fire", "Optional 1", "Optional 2".
+bps_aoi_disturbances <- bps_aoi_disturbances %>%
+  filter(!TransitionGroupID %in% c("All Fire",
+                                   "All Transitions",
+                                   "Alternative Succession",
+                                   "Non Fire Disturbances",
+                                   "Non Replacement Fire",
+                                   "Optional 1",
+                                   "Optional 2")) 
+
+# The data frame is then grouped by the "BpS_Name" and "TransitionGroupID" columns. 
+# The annual_dist_acres column is then summarized with the sum of all values for each group. 
+bps_aoi_disturbances <- bps_aoi_disturbances %>%
+  group_by(BpS_Name, TransitionGroupID) %>%
+  summarise(annual_dist_acres = sum(annual_dist_acres)) 
+
+# The annual_dist_acres column is then converted to a numeric format, 
+# with trailing zeros removed and rounded to 0 decimal places.
+bps_aoi_disturbances <- bps_aoi_disturbances %>% 
+  mutate(annual_dist_acres = as.numeric(format(round(annual_dist_acres, 0), scientific = FALSE)))
+
+# A new data frame "sdbps_aoi_disturbances" is created, 
+# with a highlight function applied to the original data frame.
+sdbps_aoi_disturbances <- highlight_key(bps_aoi_disturbances)
+
+# A ggplot chart is created using the "sdbps_aoi_disturbances" data frame. 
+# The chart plots the TransitionGroupID column on the X-axis, 
+# and the annual_dist_acres column on the Y-axis. 
+# The chart has a title, labels for the X and Y axes, 
+# and the Y-axis has a continuous scale with comma formatted labels.
+bpsChart <- 
+  ggplot(sdbps_aoi_disturbances, aes(x = TransitionGroupID, y = annual_dist_acres)) +
+  geom_point(size = 3) +
+  labs(
+    title = "Annual historical disturbances",
+    x = "",
+    y = "Acres") +
+  coord_flip() +
+  scale_y_continuous(labels = comma)+
+  theme_bw()
+
+# The chart is displayed.
+#bpsChart
+
+# A chart with a dropdown list is created with tooltips disabled.
+bscols(widths = c(3, 10),
+       filter_select("BP", 
+                     "Select ecosystem", 
+                     sdbps_aoi_disturbances, 
+                     ~ BpS_Name,
+                     multiple = FALSE),
+       ggplotly(bpsChart,
+                tooltip = FALSE,
+                width = 815)
+)
+```
+
+
+
+
+## Data Table
+
+```{r bps data table, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+
+# clean data
+clean_bps_data <- bps_data[-c(1,17:22, 12:15, 1:4)] 
+  
+library(kableExtra)
+
+kable(clean_bps_data,
+      format.args = list(big.mark = ",")) %>%
+  kable_styling(
+    font_size = 10,
+    bootstrap_options = c("striped", "hover", "condensed")
+  ) 
+
+```
+
+

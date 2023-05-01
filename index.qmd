@@ -1,0 +1,77 @@
+---
+title: "Hoosier National Forest Landscape Assessment"
+author: "Team LF"
+---
+
+## Goals of this quick demonstration
+
+We will use [LANDFIRE](https://landfire.gov/){target="blank"} products to:
+
+1. Map and summarize past and present ecosystems and ecosystem conditions
+2. Explore historical disturbance regimes
+3. Summarize patterns of change and management opportunities
+
+
+The following charts, maps, and graphs are based on current LANDFIRE products, however they are intended only as a starting point for further analysis. 
+
+This introduction will:
+
+* provide context for the past and present ecosystem conditions for the Hoosier National Forest (within the proclamation boundary)
+* demonstrate the power of data visualization to explore ecological patterns and functions using LANDFIRE products
+* facilitate an understanding of historical and current conditions on a regional scale
+
+## How to use this web report
+
+* QAQC is ongoing
+* Want to share this web app? Simply share the hyperlink
+* All maps, input datasets and further assistance can be obtained by contacting the author, [Randy Swaty](mailto:rswaty@tnc.org){target="blank"}
+
+
+## Assessment Location
+
+Hoosier National Forest (within the proclamation boundary)
+
+
+<br>
+
+```{r libraries, message=FALSE, warning=FALSE, include=FALSE}
+
+
+library(sf)
+library(terra)
+library(tidyverse)
+library(tmap)
+library(tmaptools)
+
+
+
+```
+
+
+```{r read shapefile, message=FALSE, warning=FALSE, include=FALSE}
+#  read shape
+shp <- st_read("data/hoosier_proc.shp") %>% 
+  st_transform(crs = 5070) %>%
+  st_union() %>%
+  st_sf()
+```
+
+```{r locator map, message=FALSE, warning=FALSE, echo=FALSE}
+
+
+# toggle tmap mode to interactive viewing
+tmap_mode("view")
+
+# create a quick interactive map
+quickmap <- qtm(shp, 
+                borders = "darkgreen", 
+                fill =  NULL,
+                check.and.fix = TRUE) 
+
+quickmap
+
+
+
+```
+
+
