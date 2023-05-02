@@ -1,0 +1,550 @@
+﻿OID_,Value,Count,Feature_hoos2,bps_aoi,scls_aoi,MAP_UNIT_SYMBOL,BPS_MODEL,BPS_NAME,LABEL
+1,1,103508.000000000000000,1,2072,2,223Ba01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+2,2,58517.000000000000000,1,2067,3,223Ba01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+3,3,1501.000000000000000,1,2067,5,223Ba01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+4,4,3769.000000000000000,1,2072,3,223Ba01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+5,5,3548.000000000000000,1,2072,120,223Ba01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+6,6,2825.000000000000000,1,2072,7,223Ba01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+7,7,1969.000000000000000,1,2067,120,223Ba01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+8,8,13104.000000000000000,1,2085,2,223Ba01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+9,9,2527.000000000000000,1,2088,3,223Ba01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+10,10,1371.000000000000000,1,2067,7,223Ba01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+11,11,5693.000000000000000,1,2084,3,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+12,12,1286.000000000000000,1,2084,2,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+13,13,19990.000000000000000,1,11,111,223Ba01,,Open Water,Water
+14,14,128.000000000000000,1,2070,5,223Ba01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,E
+15,15,1992.000000000000000,1,2085,180,223Ba01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+16,16,2521.000000000000000,1,2085,3,223Ba01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+17,17,1257.000000000000000,1,2085,7,223Ba01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+18,18,368.000000000000000,1,2085,5,223Ba01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+19,19,588.000000000000000,1,2067,180,223Ba01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+20,20,97.000000000000000,1,2070,4,223Ba01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,D
+21,21,198.000000000000000,1,2088,180,223Ba01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+22,22,57.000000000000000,1,2084,5,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+23,23,266.000000000000000,1,2088,120,223Ba01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+24,24,104.000000000000000,1,2084,4,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+25,25,748.000000000000000,1,2084,7,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+26,26,1580.000000000000000,1,2072,180,223Ba01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+27,27,373.000000000000000,1,2084,6,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+28,28,92.000000000000000,1,2079,6,223Ba01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+29,29,726.000000000000000,1,2085,120,223Ba01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+30,30,315.000000000000000,1,2088,7,223Ba01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+31,31,724.000000000000000,1,2084,180,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+32,32,456.000000000000000,1,2084,120,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+33,33,8.000000000000000,1,2079,180,223Ba01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+34,34,36.000000000000000,1,2079,7,223Ba01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+35,35,214.000000000000000,1,2071,3,223Ba01,13130_47_50_51,North-Central Interior Beech-Maple Forest,C
+36,36,428.000000000000000,1,2085,1,223Ba01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+37,37,188.000000000000000,1,2067,1,223Ba01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+38,38,66.000000000000000,1,2079,120,223Ba01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+39,39,169.000000000000000,1,2072,6,223Ba01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+40,40,20.000000000000000,1,2072,1,223Ba01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+41,41,259.000000000000000,1,2071,180,223Ba01,13130_47_50_51,North-Central Interior Beech-Maple Forest,Agriculture
+42,42,22.000000000000000,1,2091,7,223Ba01,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,UE
+43,43,10.000000000000000,1,2070,120,223Ba01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Developed
+44,44,114.000000000000000,1,2091,180,223Ba01,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Agriculture
+45,45,22988.000000000000000,3,2072,2,223Ba03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+46,46,7221.000000000000000,3,2067,3,223Ba03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+47,47,69.000000000000000,1,2091,2,223Ba01,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,B
+48,48,2667.000000000000000,3,2085,2,223Ba03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+49,49,601.000000000000000,3,2085,180,223Ba03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+50,50,231.000000000000000,3,11,111,223Ba03,,Open Water,Water
+51,51,490.000000000000000,3,2085,7,223Ba03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+52,52,2152.000000000000000,3,2072,120,223Ba03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+53,53,406.000000000000000,3,2085,3,223Ba03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+54,54,3834.000000000000000,3,2072,180,223Ba03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+55,55,151.000000000000000,3,2084,2,223Ba03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+56,56,1422.000000000000000,3,2084,3,223Ba03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+57,57,3.000000000000000,1,2072,4,223Ba01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+58,58,363.000000000000000,3,2072,3,223Ba03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+59,59,4235.000000000000000,3,2072,7,223Ba03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+60,60,625.000000000000000,3,2067,120,223Ba03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+61,61,257.000000000000000,1,2088,6,223Ba01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+62,62,864.000000000000000,3,2067,180,223Ba03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+63,63,6.000000000000000,3,2084,5,223Ba03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+64,64,218.000000000000000,3,2088,3,223Ba03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+65,65,41.000000000000000,3,2072,6,223Ba03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+66,66,957.000000000000000,3,2067,7,223Ba03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+67,67,7.000000000000000,1,2088,2,223Ba01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,B
+68,68,92.000000000000000,3,2084,6,223Ba03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+69,69,17.000000000000000,1,2084,1,223Ba01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,A
+70,70,211.000000000000000,3,2085,120,223Ba03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+71,71,48.000000000000000,3,2070,4,223Ba03,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,D
+72,72,2.000000000000000,1,2070,3,223Ba01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,C
+73,73,149.000000000000000,3,2084,120,223Ba03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+74,74,129.000000000000000,3,2067,5,223Ba03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+75,75,32.000000000000000,3,2091,120,223Ba03,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Developed
+76,76,58.000000000000000,1,2071,120,223Ba01,13130_47_50_51,North-Central Interior Beech-Maple Forest,Developed
+77,77,65.000000000000000,3,2085,5,223Ba03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+78,78,230.000000000000000,3,2084,7,223Ba03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+79,79,36.000000000000000,3,2070,5,223Ba03,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,E
+80,80,83.000000000000000,3,2091,7,223Ba03,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,UE
+81,81,145.000000000000000,3,2091,2,223Ba03,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,B
+82,82,6.000000000000000,3,2070,120,223Ba03,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Developed
+83,83,11.000000000000000,3,2079,7,223Ba03,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+84,84,9.000000000000000,3,2070,7,223Ba03,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UE
+85,85,8.000000000000000,3,2085,1,223Ba03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+86,86,2.000000000000000,1,2091,3,223Ba01,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,C
+87,87,95.000000000000000,3,2091,180,223Ba03,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Agriculture
+88,88,67.000000000000000,3,2088,180,223Ba03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+89,89,34.000000000000000,3,2088,120,223Ba03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+90,90,11.000000000000000,3,2079,6,223Ba03,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+91,91,59.000000000000000,3,2088,7,223Ba03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+92,92,1.000000000000000,3,2070,6,223Ba03,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UN
+93,93,352.000000000000000,3,2084,180,223Ba03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+94,94,42.000000000000000,1,2091,120,223Ba01,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Developed
+95,95,28.000000000000000,1,2071,7,223Ba01,13130_47_50_51,North-Central Interior Beech-Maple Forest,UE
+96,96,3.000000000000000,1,2070,6,223Ba01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UN
+97,97,1.000000000000000,1,2085,4,223Ba01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,D
+98,98,15.000000000000000,3,2072,1,223Ba03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+99,99,3.000000000000000,3,2091,6,223Ba03,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,UN
+100,100,223.000000000000000,3,2071,7,223Ba03,13130_47_50_51,North-Central Interior Beech-Maple Forest,UE
+101,101,676.000000000000000,3,2071,3,223Ba03,13130_47_50_51,North-Central Interior Beech-Maple Forest,C
+102,102,1.000000000000000,1,2079,5,223Ba01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,E
+103,103,14.000000000000000,3,2084,4,223Ba03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+104,104,5373.000000000000000,4,11,111,223Ba04,,Open Water,Water
+105,105,5.000000000000000,3,2067,1,223Ba03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+106,106,82.000000000000000,4,2088,120,223Ba04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+107,107,439.000000000000000,4,2084,120,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+108,108,205.000000000000000,4,2084,7,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+109,109,15.000000000000000,3,2071,4,223Ba03,13130_47_50_51,North-Central Interior Beech-Maple Forest,D
+110,110,275.000000000000000,3,2071,180,223Ba03,13130_47_50_51,North-Central Interior Beech-Maple Forest,Agriculture
+111,111,288.000000000000000,4,2085,120,223Ba04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+112,112,135.000000000000000,4,2088,6,223Ba04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+113,113,117.000000000000000,4,2088,7,223Ba04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+114,114,20204.000000000000000,4,2067,3,223Ba04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+115,115,46169.000000000000000,4,2072,2,223Ba04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+116,116,72.000000000000000,4,2067,1,223Ba04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+117,117,42.000000000000000,4,2085,1,223Ba04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+118,118,266.000000000000000,4,2085,7,223Ba04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+119,119,1565.000000000000000,4,2072,3,223Ba04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+120,120,83.000000000000000,4,2084,6,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+121,121,101.000000000000000,4,2072,6,223Ba04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+122,122,6.000000000000000,4,2079,180,223Ba04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+123,123,78.000000000000000,3,2071,120,223Ba03,13130_47_50_51,North-Central Interior Beech-Maple Forest,Developed
+124,124,44.000000000000000,4,2079,6,223Ba04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+125,125,711.000000000000000,4,2067,7,223Ba04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+126,126,3043.000000000000000,4,2072,120,223Ba04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+127,127,5.000000000000000,4,2079,120,223Ba04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+128,128,1.000000000000000,1,2070,7,223Ba01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UE
+129,129,1108.000000000000000,4,2088,3,223Ba04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+130,130,324.000000000000000,4,2085,3,223Ba04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+131,131,3954.000000000000000,4,2085,2,223Ba04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+132,132,850.000000000000000,4,2067,120,223Ba04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+133,133,933.000000000000000,4,2084,180,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+134,134,1.000000000000000,3,2088,2,223Ba03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,B
+135,135,2364.000000000000000,4,2072,7,223Ba04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+136,136,9.000000000000000,3,2079,120,223Ba03,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+137,137,1852.000000000000000,4,2084,3,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+138,138,44.000000000000000,4,2088,180,223Ba04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+139,139,11.000000000000000,4,2079,7,223Ba04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+140,140,1747.000000000000000,4,2072,180,223Ba04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+141,141,740.000000000000000,4,2084,2,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+142,142,4725.000000000000000,2,2085,2,223Ba02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+143,143,311.000000000000000,4,2085,180,223Ba04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+144,144,469.000000000000000,2,2085,120,223Ba02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+145,145,667.000000000000000,2,2084,120,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+146,146,553.000000000000000,2,2085,7,223Ba02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+147,147,996.000000000000000,2,2085,180,223Ba02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+148,148,4072.000000000000000,2,2072,180,223Ba02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+149,149,59977.000000000000000,2,2072,2,223Ba02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+150,150,29345.000000000000000,2,2067,3,223Ba02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+151,151,642.000000000000000,2,2085,3,223Ba02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+152,152,1767.000000000000000,2,2067,180,223Ba02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+153,153,1551.000000000000000,2,2072,3,223Ba02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+154,154,476.000000000000000,4,2067,5,223Ba04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+155,155,2909.000000000000000,2,2072,120,223Ba02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+156,156,2769.000000000000000,2,2072,7,223Ba02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+157,157,1444.000000000000000,2,2088,3,223Ba02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+158,158,841.000000000000000,2,2084,7,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+159,159,1199.000000000000000,2,2067,120,223Ba02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+160,160,4758.000000000000000,2,2084,3,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+161,161,3.000000000000000,1,2071,4,223Ba01,13130_47_50_51,North-Central Interior Beech-Maple Forest,D
+162,162,709.000000000000000,2,2084,2,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+163,163,37.000000000000000,4,2084,4,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+164,164,1009.000000000000000,2,11,111,223Ba02,,Open Water,Water
+165,165,1015.000000000000000,2,2067,7,223Ba02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+166,166,548.000000000000000,2,2067,5,223Ba02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+167,167,103.000000000000000,2,2091,2,223Ba02,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,B
+168,168,1.000000000000000,3,2085,4,223Ba03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,D
+169,169,4129.000000000000000,2,2084,180,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+170,170,29.000000000000000,2,2091,7,223Ba02,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,UE
+171,171,78.000000000000000,2,2091,120,223Ba02,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Developed
+172,172,298.000000000000000,2,2084,6,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+173,173,2.000000000000000,2,2091,6,223Ba02,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,UN
+174,174,2.000000000000000,3,2088,6,223Ba03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+175,175,156.000000000000000,4,2085,5,223Ba04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+176,176,48.000000000000000,4,2084,5,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+177,177,2.000000000000000,2,2084,1,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,A
+178,178,199.000000000000000,2,2088,120,223Ba02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+179,179,234.000000000000000,2,2088,7,223Ba02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+180,180,95.000000000000000,2,2085,5,223Ba02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+181,181,7.000000000000000,3,2079,180,223Ba03,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+182,182,26.000000000000000,2,2084,5,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+183,183,52.000000000000000,2,2084,4,223Ba02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+184,184,474.000000000000000,4,2067,180,223Ba04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+185,185,6.000000000000000,2,2085,1,223Ba02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+186,186,1.000000000000000,4,2067,2,223Ba04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,B
+187,187,18.000000000000000,4,2072,1,223Ba04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+188,188,1.000000000000000,2,2070,120,223Ba02,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Developed
+189,189,135.000000000000000,2,2091,180,223Ba02,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Agriculture
+190,190,1.000000000000000,3,2071,2,223Ba03,13130_47_50_51,North-Central Interior Beech-Maple Forest,B
+191,191,2.000000000000000,4,2084,1,223Ba04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,A
+192,192,11.000000000000000,2,2072,6,223Ba02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+193,193,17.000000000000000,2,2070,5,223Ba02,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,E
+194,194,24.000000000000000,2,2072,1,223Ba02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+195,195,1.000000000000000,4,2071,7,223Ba04,13130_47_50_51,North-Central Interior Beech-Maple Forest,UE
+196,196,497.000000000000000,2,2071,3,223Ba02,13130_47_50_51,North-Central Interior Beech-Maple Forest,C
+197,197,3.000000000000000,2,2070,7,223Ba02,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UE
+198,198,119.000000000000000,2,2071,7,223Ba02,13130_47_50_51,North-Central Interior Beech-Maple Forest,UE
+199,199,16.000000000000000,2,2079,120,223Ba02,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+200,200,20.000000000000000,2,2070,4,223Ba02,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,D
+201,201,8.000000000000000,4,2070,120,223Ba04,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Developed
+202,202,642.000000000000000,2,2088,180,223Ba02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+203,203,4.000000000000000,4,2091,120,223Ba04,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Developed
+204,204,14.000000000000000,4,2071,3,223Ba04,13130_47_50_51,North-Central Interior Beech-Maple Forest,C
+205,205,13.000000000000000,4,2091,2,223Ba04,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,B
+206,206,2.000000000000000,2,2091,3,223Ba02,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,C
+207,207,106.000000000000000,2,2071,120,223Ba02,13130_47_50_51,North-Central Interior Beech-Maple Forest,Developed
+208,208,7.000000000000000,2,2071,4,223Ba02,13130_47_50_51,North-Central Interior Beech-Maple Forest,D
+209,209,8.000000000000000,4,2070,5,223Ba04,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,E
+210,210,2.000000000000000,4,2070,3,223Ba04,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,C
+211,211,15.000000000000000,4,2070,4,223Ba04,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,D
+212,212,3.000000000000000,4,2091,180,223Ba04,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Agriculture
+213,213,1.000000000000000,4,2079,2,223Ba04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,B
+214,214,27.000000000000000,2,2079,6,223Ba02,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+215,215,6.000000000000000,4,2070,7,223Ba04,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UE
+216,216,452.000000000000000,2,2071,180,223Ba02,13130_47_50_51,North-Central Interior Beech-Maple Forest,Agriculture
+217,217,13.000000000000000,2,2079,7,223Ba02,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+218,218,2.000000000000000,1,2091,6,223Ba01,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,UN
+219,219,9.000000000000000,2,2079,180,223Ba02,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+220,220,8.000000000000000,2,2067,1,223Ba02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+221,221,24.000000000000000,2,2088,6,223Ba02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+222,222,2.000000000000000,4,2091,7,223Ba04,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,UE
+223,223,1.000000000000000,4,2072,4,223Ba04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+224,224,3.000000000000000,2,2072,4,223Ba02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+225,225,1.000000000000000,4,2085,4,223Ba04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,D
+226,226,1.000000000000000,4,2067,4,223Ba04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,D
+227,227,6.000000000000000,1,2070,180,223Ba01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Agriculture
+228,228,1.000000000000000,2,2071,2,223Ba02,13130_47_50_51,North-Central Interior Beech-Maple Forest,B
+229,229,1.000000000000000,4,2070,180,223Ba04,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Agriculture
+230,230,1.000000000000000,1,2081,7,223Ba01,14180_47,Pennyroyal Karst Plain Prairie and Barrens,UE
+231,231,1.000000000000000,1,2081,120,223Ba01,14180_47,Pennyroyal Karst Plain Prairie and Barrens,Developed
+232,232,2.000000000000000,4,2071,120,223Ba04,13130_47_50_51,North-Central Interior Beech-Maple Forest,Developed
+233,233,18055.000000000000000,5,2072,120,223De01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+234,234,88371.000000000000000,5,2067,3,223De01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+235,235,300563.000000000000000,5,2072,2,223De01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+236,236,970.000000000000000,5,2088,7,223De01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+237,237,127.000000000000000,5,2088,6,223De01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+238,238,8880.000000000000000,5,2088,3,223De01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+239,239,25571.000000000000000,5,2072,7,223De01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+240,240,38170.000000000000000,5,2072,180,223De01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+241,241,15316.000000000000000,5,2067,7,223De01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+242,242,17651.000000000000000,5,2067,180,223De01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+243,243,1184.000000000000000,5,2072,1,223De01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+244,244,7526.000000000000000,5,2067,120,223De01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+245,245,7898.000000000000000,5,2084,3,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+246,246,1525.000000000000000,5,2084,2,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+247,247,20376.000000000000000,5,2085,2,223De01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+248,248,3214.000000000000000,5,2072,3,223De01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+249,249,65.000000000000000,5,2079,120,223De01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+250,250,422.000000000000000,5,2079,6,223De01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+251,251,117.000000000000000,5,2079,7,223De01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+252,252,69.000000000000000,5,2067,1,223De01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+253,253,1321.000000000000000,5,2088,180,223De01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+254,254,86.000000000000000,5,2079,180,223De01,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+255,255,4637.000000000000000,5,2085,3,223De01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+256,256,514.000000000000000,5,2067,5,223De01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+257,257,9389.000000000000000,5,2085,180,223De01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+258,258,1.000000000000000,5,2091,2,223De01,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,B
+259,259,2731.000000000000000,5,2085,120,223De01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+260,260,2676.000000000000000,5,2085,7,223De01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+261,261,521.000000000000000,5,2085,1,223De01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+262,262,1886.000000000000000,5,2084,180,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+263,263,42.000000000000000,5,2088,2,223De01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,B
+264,264,1168.000000000000000,5,2084,7,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+265,265,508.000000000000000,5,2084,6,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+266,266,663.000000000000000,5,2088,120,223De01,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+267,267,1.000000000000000,5,2070,3,223De01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,C
+268,268,12.000000000000000,5,2084,1,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,A
+269,269,926.000000000000000,5,2084,120,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+270,270,8560.000000000000000,5,11,111,223De01,,Open Water,Water
+271,271,186.000000000000000,5,2072,6,223De01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+272,272,28.000000000000000,5,2084,4,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+273,273,26.000000000000000,5,2084,5,223De01,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+274,274,224.000000000000000,5,2078,5,223De01,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,E
+275,275,136.000000000000000,5,2085,5,223De01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+276,276,37678.000000000000000,7,2072,2,223De03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+277,277,1103.000000000000000,7,2072,7,223De03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+278,278,12032.000000000000000,7,2067,3,223De03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+279,279,1411.000000000000000,7,2067,180,223De03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+280,280,2124.000000000000000,7,2072,180,223De03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+281,281,959.000000000000000,7,2067,7,223De03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+282,282,7.000000000000000,7,2067,1,223De03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+283,283,484.000000000000000,7,2072,3,223De03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+284,284,869.000000000000000,7,2067,120,223De03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+285,285,1041.000000000000000,7,2088,3,223De03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+286,286,137.000000000000000,7,2067,5,223De03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+287,287,1545.000000000000000,7,2072,120,223De03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+288,288,3011.000000000000000,7,2085,2,223De03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+289,289,18.000000000000000,7,2072,1,223De03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+290,290,561.000000000000000,7,2085,3,223De03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+291,291,910.000000000000000,7,2084,3,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+292,292,214.000000000000000,7,2085,7,223De03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+293,293,477.000000000000000,7,2084,2,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+294,294,69.000000000000000,7,2084,7,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+295,295,1185.000000000000000,7,2085,180,223De03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+296,296,89.000000000000000,7,2084,180,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+297,297,395.000000000000000,7,11,111,223De03,,Open Water,Water
+298,298,324.000000000000000,7,2079,6,223De03,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+299,299,26.000000000000000,7,2079,180,223De03,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+300,300,101.000000000000000,7,2088,180,223De03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+301,301,37.000000000000000,7,2088,7,223De03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+302,302,16.000000000000000,5,2072,4,223De01,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+303,303,13.000000000000000,7,2079,7,223De03,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+304,304,48.000000000000000,7,2088,120,223De03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+305,305,234.000000000000000,7,2085,120,223De03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+306,306,5.000000000000000,7,2088,6,223De03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+307,307,16.000000000000000,7,2084,6,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+308,308,7.000000000000000,7,2076,4,223De03,13530_47,Southern Appalachian Low-Elevation Pine Forest,D
+309,309,58.000000000000000,7,2076,5,223De03,13530_47,Southern Appalachian Low-Elevation Pine Forest,E
+310,310,8.000000000000000,7,2079,120,223De03,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+311,311,125.000000000000000,7,2084,120,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+312,312,31.000000000000000,7,2076,180,223De03,13530_47,Southern Appalachian Low-Elevation Pine Forest,Agriculture
+313,313,3.000000000000000,7,2084,4,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+314,314,16.000000000000000,7,2072,6,223De03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+315,315,2.000000000000000,7,2078,180,223De03,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Agriculture
+316,316,69.000000000000000,7,2078,5,223De03,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,E
+317,317,2.000000000000000,7,2076,7,223De03,13530_47,Southern Appalachian Low-Elevation Pine Forest,UE
+318,318,1.000000000000000,7,2088,2,223De03,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,B
+319,319,27.000000000000000,7,2085,5,223De03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+320,320,3.000000000000000,7,2084,5,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+321,321,1.000000000000000,7,2084,1,223De03,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,A
+322,322,22296.000000000000000,6,2072,2,223De02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+323,323,2578.000000000000000,6,2072,180,223De02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+324,324,450.000000000000000,6,2072,3,223De02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+325,325,709.000000000000000,6,2084,3,223De02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+326,326,14731.000000000000000,6,2067,3,223De02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+327,327,2191.000000000000000,6,2085,2,223De02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+328,328,263.000000000000000,6,2067,5,223De02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+329,329,404.000000000000000,6,2088,3,223De02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+330,330,1711.000000000000000,6,2067,180,223De02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+331,331,797.000000000000000,6,2072,7,223De02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+332,332,31.000000000000000,6,2085,5,223De02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+333,333,149.000000000000000,6,2084,2,223De02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+334,334,150.000000000000000,6,2088,180,223De02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+335,335,64.000000000000000,6,2088,7,223De02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+336,336,211.000000000000000,6,2085,7,223De02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+337,337,1.000000000000000,6,2072,4,223De02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+338,338,2.000000000000000,6,2088,6,223De02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+339,339,320.000000000000000,6,11,111,223De02,,Open Water,Water
+340,340,1443.000000000000000,6,2067,7,223De02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+341,341,1247.000000000000000,6,2072,120,223De02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+342,342,372.000000000000000,6,2085,120,223De02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+343,343,149.000000000000000,6,2084,120,223De02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+344,344,1175.000000000000000,6,2067,120,223De02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+345,345,60.000000000000000,6,2088,120,223De02,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+346,346,750.000000000000000,6,2078,5,223De02,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,E
+347,347,294.000000000000000,6,2085,3,223De02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+348,348,1.000000000000000,7,2076,120,223De03,13530_47,Southern Appalachian Low-Elevation Pine Forest,Developed
+349,349,1236.000000000000000,6,2085,180,223De02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+350,350,15.000000000000000,6,2078,4,223De02,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,D
+351,351,411.000000000000000,6,2084,180,223De02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+352,352,15.000000000000000,6,2076,180,223De02,13530_47,Southern Appalachian Low-Elevation Pine Forest,Agriculture
+353,353,20.000000000000000,5,2076,5,223De01,13530_47,Southern Appalachian Low-Elevation Pine Forest,E
+354,354,3.000000000000000,6,2076,120,223De02,13530_47,Southern Appalachian Low-Elevation Pine Forest,Developed
+355,355,4.000000000000000,6,2076,7,223De02,13530_47,Southern Appalachian Low-Elevation Pine Forest,UE
+356,356,14.000000000000000,6,2085,1,223De02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+357,357,27.000000000000000,6,2078,7,223De02,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,UE
+358,358,3.000000000000000,6,2079,7,223De02,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+359,359,6.000000000000000,6,2079,120,223De02,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+360,360,2.000000000000000,6,2076,4,223De02,13530_47,Southern Appalachian Low-Elevation Pine Forest,D
+361,361,55.000000000000000,6,2084,7,223De02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+362,362,16.000000000000000,6,2084,6,223De02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+363,363,56.000000000000000,7,2085,1,223De03,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+364,364,1.000000000000000,7,2067,4,223De03,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,D
+365,365,2.000000000000000,5,2076,7,223De01,13530_47,Southern Appalachian Low-Elevation Pine Forest,UE
+366,366,2.000000000000000,6,2067,4,223De02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,D
+367,367,28.000000000000000,6,2078,120,223De02,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Developed
+368,368,9.000000000000000,6,2084,5,223De02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+369,369,2.000000000000000,6,2084,4,223De02,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+370,370,5.000000000000000,6,2072,6,223De02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+371,371,1.000000000000000,6,2070,7,223De02,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UE
+372,372,5.000000000000000,6,2078,180,223De02,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Agriculture
+373,373,1.000000000000000,7,2078,4,223De03,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,D
+374,374,12.000000000000000,6,2076,5,223De02,13530_47,Southern Appalachian Low-Elevation Pine Forest,E
+375,375,4.000000000000000,5,2078,180,223De01,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Agriculture
+376,376,1.000000000000000,7,2072,4,223De03,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+377,377,4.000000000000000,6,2079,180,223De02,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+378,378,8.000000000000000,6,2067,1,223De02,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+379,379,2.000000000000000,5,2078,4,223De01,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,D
+380,380,11.000000000000000,5,2078,7,223De01,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,UE
+381,381,7.000000000000000,5,2085,4,223De01,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,D
+382,382,1.000000000000000,6,2079,6,223De02,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+383,383,1.000000000000000,5,2070,7,223De01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UE
+384,384,1.000000000000000,6,2072,1,223De02,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+385,385,1.000000000000000,6,2085,4,223De02,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,D
+386,386,8.000000000000000,5,2091,180,223De01,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Agriculture
+387,387,4.000000000000000,5,2078,120,223De01,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Developed
+388,388,16.000000000000000,5,2067,4,223De01,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,D
+389,389,1.000000000000000,5,2070,120,223De01,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Developed
+390,390,7212.000000000000000,8,2085,2,223De04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+391,391,4437.000000000000000,8,2084,3,223De04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+392,392,67957.000000000000000,8,2072,2,223De04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+393,393,4782.000000000000000,8,2072,7,223De04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+394,394,1933.000000000000000,8,2088,3,223De04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+395,395,2193.000000000000000,8,2085,3,223De04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+396,396,511.000000000000000,8,2072,3,223De04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+397,397,46146.000000000000000,8,2067,3,223De04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+398,398,157.000000000000000,8,2084,6,223De04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+399,399,7229.000000000000000,8,2067,7,223De04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+400,400,1473.000000000000000,8,2079,6,223De04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+401,401,437.000000000000000,8,2088,180,223De04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+402,402,3455.000000000000000,8,11,111,223De04,,Open Water,Water
+403,403,10.000000000000000,8,2067,1,223De04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+404,404,363.000000000000000,8,2084,2,223De04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+405,405,69.000000000000000,8,2085,1,223De04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+406,406,4776.000000000000000,8,2072,120,223De04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+407,407,181.000000000000000,8,2084,7,223De04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+408,408,1257.000000000000000,8,2085,180,223De04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+409,409,9989.000000000000000,8,2072,180,223De04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+410,410,1049.000000000000000,8,2079,180,223De04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+411,411,556.000000000000000,8,2085,7,223De04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+412,412,8621.000000000000000,8,2067,180,223De04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+413,413,14.000000000000000,8,2084,4,223De04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+414,414,150.000000000000000,8,2067,5,223De04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+415,415,3428.000000000000000,8,2067,120,223De04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+416,416,262.000000000000000,8,2088,7,223De04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+417,417,189.000000000000000,8,2088,120,223De04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+418,418,706.000000000000000,8,2085,120,223De04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+419,419,224.000000000000000,8,2084,120,223De04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+420,420,269.000000000000000,8,2079,120,223De04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+421,421,246.000000000000000,8,2084,180,223De04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+422,422,6.000000000000000,8,2072,4,223De04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+423,423,3.000000000000000,8,2084,5,223De04,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+424,424,22.000000000000000,8,2085,5,223De04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+425,425,28.000000000000000,8,2072,6,223De04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+426,426,78.000000000000000,8,2072,1,223De04,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+427,427,42.000000000000000,8,2088,6,223De04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+428,428,3.000000000000000,8,2067,4,223De04,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,D
+429,429,244.000000000000000,8,2079,7,223De04,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+430,430,1.000000000000000,8,2085,4,223De04,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,D
+431,431,20528.000000000000000,9,2072,180,223De05,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+432,432,21509.000000000000000,9,2067,180,223De05,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+433,433,101761.000000000000000,9,2067,3,223De05,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+434,434,81295.000000000000000,9,2072,2,223De05,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+435,435,12786.000000000000000,9,2067,7,223De05,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+436,436,396.000000000000000,9,2072,3,223De05,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+437,437,7534.000000000000000,9,2067,120,223De05,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+438,438,6374.000000000000000,9,2072,120,223De05,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+439,439,8469.000000000000000,9,2072,7,223De05,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+440,440,5499.000000000000000,9,2085,2,223De05,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+441,441,1219.000000000000000,9,2088,3,223De05,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+442,442,1553.000000000000000,9,2079,6,223De05,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+443,443,1655.000000000000000,9,2085,3,223De05,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+444,444,6178.000000000000000,9,2084,3,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+445,445,3.000000000000000,8,2076,4,223De04,13530_47,Southern Appalachian Low-Elevation Pine Forest,D
+446,446,5.000000000000000,8,2076,120,223De04,13530_47,Southern Appalachian Low-Elevation Pine Forest,Developed
+447,447,569.000000000000000,9,2084,2,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+448,448,404.000000000000000,9,2088,7,223De05,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+449,449,19.000000000000000,9,2085,5,223De05,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+450,450,1242.000000000000000,9,2085,7,223De05,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+451,451,171.000000000000000,9,2067,5,223De05,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+452,452,805.000000000000000,9,2084,7,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+453,453,682.000000000000000,9,2084,120,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+454,454,918.000000000000000,9,2085,120,223De05,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+455,455,292.000000000000000,9,2084,6,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+456,456,1074.000000000000000,9,2084,180,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+457,457,34.000000000000000,9,2072,6,223De05,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+458,458,3535.000000000000000,9,2085,180,223De05,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+459,459,165.000000000000000,9,2088,120,223De05,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+460,460,761.000000000000000,9,2088,180,223De05,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+461,461,8.000000000000000,8,2088,2,223De04,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,B
+462,462,279.000000000000000,9,2079,120,223De05,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+463,463,502.000000000000000,9,2079,7,223De05,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+464,464,2856.000000000000000,9,11,111,223De05,,Open Water,Water
+465,465,67.000000000000000,9,2085,1,223De05,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+466,466,24.000000000000000,9,2072,4,223De05,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+467,467,178.000000000000000,9,2072,1,223De05,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+468,468,7.000000000000000,9,2088,2,223De05,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,B
+469,469,9.000000000000000,9,2084,1,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,A
+470,470,67.000000000000000,9,2088,6,223De05,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+471,471,21.000000000000000,9,2067,4,223De05,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,D
+472,472,15.000000000000000,9,2084,4,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+473,473,358.000000000000000,9,2078,5,223De05,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,E
+474,474,4.000000000000000,9,2085,4,223De05,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,D
+475,475,15.000000000000000,9,2067,1,223De05,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+476,476,20.000000000000000,9,2078,7,223De05,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,UE
+477,477,8.000000000000000,9,2078,120,223De05,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Developed
+478,478,720.000000000000000,9,2079,180,223De05,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+479,479,20.000000000000000,9,2078,4,223De05,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,D
+480,480,7504.000000000000000,10,2067,7,223De06,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,UE
+481,481,4215.000000000000000,10,2067,120,223De06,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Developed
+482,482,4035.000000000000000,10,2072,120,223De06,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Developed
+483,483,100309.000000000000000,10,2067,3,223De06,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,C
+484,484,10281.000000000000000,10,2072,180,223De06,13210_47_48_53_57,South-Central Interior Mesophytic Forest,Agriculture
+485,485,4362.000000000000000,10,2072,7,223De06,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UE
+486,486,8147.000000000000000,10,2067,180,223De06,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,Agriculture
+487,487,62163.000000000000000,10,2072,2,223De06,13210_47_48_53_57,South-Central Interior Mesophytic Forest,B
+488,488,9.000000000000000,8,2078,5,223De04,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,E
+489,489,3436.000000000000000,10,2088,3,223De06,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,C
+490,490,9866.000000000000000,10,2084,3,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,C
+491,491,1399.000000000000000,10,2084,2,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,B
+492,492,4441.000000000000000,10,2085,2,223De06,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,B
+493,493,32.000000000000000,9,2078,180,223De05,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Agriculture
+494,494,1140.000000000000000,10,2084,7,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UE
+495,495,812.000000000000000,10,2088,180,223De06,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Agriculture
+496,496,3730.000000000000000,10,11,111,223De06,,Open Water,Water
+497,497,294.000000000000000,10,2088,120,223De06,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,Developed
+498,498,557.000000000000000,10,2088,7,223De06,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UE
+499,499,14695.000000000000000,10,2079,6,223De06,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UN
+500,500,20.000000000000000,10,2067,1,223De06,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,A
+501,501,1.000000000000000,10,2067,2,223De06,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,B
+502,502,1015.000000000000000,10,2085,7,223De06,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,UE
+503,503,88.000000000000000,10,2072,1,223De06,13210_47_48_53_57,South-Central Interior Mesophytic Forest,A
+504,504,126.000000000000000,10,2067,5,223De06,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,E
+505,505,902.000000000000000,10,2079,120,223De06,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Developed
+506,506,1120.000000000000000,10,2085,3,223De06,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,C
+507,507,89.000000000000000,10,2085,1,223De06,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,A
+508,508,22.000000000000000,10,2088,2,223De06,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,B
+509,509,62.000000000000000,10,2084,1,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,A
+510,510,744.000000000000000,10,2084,120,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Developed
+511,511,6.000000000000000,10,2079,4,223De06,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,D
+512,512,3.000000000000000,10,2085,5,223De06,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,E
+513,513,523.000000000000000,10,2084,6,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,UN
+514,514,379.000000000000000,10,2085,120,223De06,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Developed
+515,515,1700.000000000000000,10,2085,180,223De06,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,Agriculture
+516,516,187.000000000000000,10,2072,3,223De06,13210_47_48_53_57,South-Central Interior Mesophytic Forest,C
+517,517,1265.000000000000000,10,2084,180,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,Agriculture
+518,518,23.000000000000000,10,2084,4,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,D
+519,519,2753.000000000000000,10,2079,7,223De06,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,UE
+520,520,1723.000000000000000,10,2079,180,223De06,14010_43_44_47_48_53,Central Interior Highlands Calcareous Glade and Barrens,Agriculture
+521,521,102.000000000000000,10,2088,6,223De06,14790_41_42_47_48_50_51_53,Central Interior and Appalachian Swamp Systems,UN
+522,522,6.000000000000000,9,2084,5,223De05,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+523,523,54.000000000000000,10,2072,6,223De06,13210_47_48_53_57,South-Central Interior Mesophytic Forest,UN
+524,524,4.000000000000000,10,2067,4,223De06,13050_47_48,Southern Interior Low Plateau Dry-Mesic Oak Forest,D
+525,525,2.000000000000000,10,2074,180,223De06,13260_47,South-Central Interior/Upper Coastal Plain Flatwoods,Agriculture
+526,526,8.000000000000000,9,2076,5,223De05,13530_47,Southern Appalachian Low-Elevation Pine Forest,E
+527,527,4.000000000000000,10,2072,4,223De06,13210_47_48_53_57,South-Central Interior Mesophytic Forest,D
+528,528,2.000000000000000,10,2085,4,223De06,14720_44_46_47_48,Central Interior and Appalachian Riparian Systems,D
+529,529,5.000000000000000,9,2070,180,223De05,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Agriculture
+530,530,7.000000000000000,10,2074,5,223De06,13260_47,South-Central Interior/Upper Coastal Plain Flatwoods,E
+531,531,7.000000000000000,10,2074,7,223De06,13260_47,South-Central Interior/Upper Coastal Plain Flatwoods,UE
+532,532,13.000000000000000,10,2074,4,223De06,13260_47,South-Central Interior/Upper Coastal Plain Flatwoods,D
+533,533,85.000000000000000,10,2078,5,223De06,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,E
+534,534,4.000000000000000,9,2076,7,223De05,13530_47,Southern Appalachian Low-Elevation Pine Forest,UE
+535,535,3.000000000000000,10,2084,5,223De06,14710_47_48_53_54_57_59_60_61_63,Central Interior and Appalachian Floodplain Systems,E
+536,536,39.000000000000000,10,2076,5,223De06,13530_47,Southern Appalachian Low-Elevation Pine Forest,E
+537,537,4.000000000000000,10,2091,180,223De06,15180_43_47_49_52_62_63_64_65,North-Central Interior Wet Flatwoods,Agriculture
+538,538,2.000000000000000,10,2076,180,223De06,13530_47,Southern Appalachian Low-Elevation Pine Forest,Agriculture
+539,539,1.000000000000000,10,2070,180,223De06,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,Agriculture
+540,540,50.000000000000000,10,2078,180,223De06,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Agriculture
+541,541,1.000000000000000,10,2070,7,223De06,13100_47,North-Central Interior Dry-Mesic Oak Forest and Woodland,UE
+542,542,1.000000000000000,9,2078,2,223De05,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,B
+543,543,6.000000000000000,10,2078,120,223De06,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,Developed
+544,544,18.000000000000000,10,2078,7,223De06,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,UE
+545,545,2.000000000000000,10,2076,4,223De06,13530_47,Southern Appalachian Low-Elevation Pine Forest,D
+546,546,1.000000000000000,10,2076,6,223De06,13530_47,Southern Appalachian Low-Elevation Pine Forest,UN
+547,547,1.000000000000000,10,2076,120,223De06,13530_47,Southern Appalachian Low-Elevation Pine Forest,Developed
+548,548,4.000000000000000,10,2078,4,223De06,13630_47_53,Central Interior Highlands Dry Acidic Glade and Barrens,D
+549,549,3.000000000000000,10,2076,7,223De06,13530_47,Southern Appalachian Low-Elevation Pine Forest,UE

@@ -1,0 +1,254 @@
+---
+title: "`r params$MAP_UNIT_S` Report"
+author: "Randy Swaty"
+date: "2023-02-20"
+output: html_document
+params:
+  MAP_UNIT_SYMBOL: "223Ba01"
+---
+
+
+
+```{r setup, message=FALSE, warning=FALSE, include=FALSE}
+library(tidyverse)
+library(stringr)
+library(crosstalk)
+library(ggsci)
+library(scales)
+library(plotly)
+
+data <- read_csv("bps_evt_ltas_hoosier.csv") %>%
+  mutate(ACRES = Count*0.222)
+
+bps_transitions <- read.csv("bps_transitions.csv")
+
+bps_scls_ref_cur_ltas <- read_csv("data/bps_scls_ref_cur_ltas.csv")
+
+```
+
+## General Background to this report
+
+Below you will find charts specific to this Land Type Association that depict:
+
+* How many acres of the most prevalent historical ecosystems (called "Biophysical Settings", BpS) were present just prior to European colonization
+* An estimate of acres disturbed by distubace type per BpS
+* How many acres of the most prevalent current ecosystems (called "Existing Vegetation Types") were present ca2020
+* Past vs. current succession class amounts for 3 most prevalent BpSs
+
+*These charts provided as a demo only.  Local review and interpretation will be key to success!*
+
+## Top 10 Biophysical Settings 
+
+```{r bps chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=10}
+bpsname <- data %>%
+  filter(MAP_UNIT_SYMBOL == params$MAP_UNIT_SYMBOL) %>%
+  group_by(BPS_NAME) %>%
+  summarize(ACRES = sum(ACRES)) %>%
+  arrange(desc(ACRES)) %>%
+  top_n(n = 10, wt = ACRES)
+
+# plot
+bpsChart <- 
+  ggplot(data = bpsname, aes(x = BPS_NAME, y = ACRES)) +
+  geom_bar(stat = "identity") +
+  labs(
+    subtitle = "Represents dominant vegetation systems pre-European colonization",
+    caption = "Data from landfire.gov.",
+    x = "",
+    y = "Acres") +
+  scale_x_discrete(limits = rev(bpsname$BPS_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
+  scale_y_continuous(labels = comma) +
+  coord_flip() +
+  theme_bw(base_size = 14)
+
+
+bpsChart
+
+
+```
+
+<br>
+
+
+## Historical disturbances
+```{r bps disturbances, message=FALSE, warning=FALSE, echo=FALSE}
+bpsdist <- data %>%
+  filter(MAP_UNIT_SYMBOL == params$MAP_UNIT_SYMBOL) %>%
+  select(-c(1:7, 9:15)) %>%
+  group_by(BPS_MODEL) %>%
+  summarize(ACRES = sum(ACRES))
+
+
+
+bpsdist <-  left_join(bpsdist, bps_transitions, 
+                      by = c("BPS_MODEL" = "Model_Code")) %>%
+  mutate(annual_dist_acres = annual_probability*ACRES,
+         show_col_types = FALSE) 
+
+
+# The data frame is then filtered to exclude certain values in the "TransitionGroupID" column. 
+# The excluded values are: "All Fire", "All Transitions", "Alternative Succession", 
+# "Non Fire Disturbances", "Non Replacement Fire", "Optional 1", "Optional 2".
+bpsdist <- bpsdist %>%
+  filter(!TransitionGroupID %in% c("All Fire",
+                                   "All Transitions",
+                                   "Alternative Succession",
+                                   "Non Fire Disturbances",
+                                   "Non Replacement Fire",
+                                   "Optional 1",
+                                   "Optional 2")) 
+
+# The data frame is then grouped by the "BpS_Name" and "TransitionGroupID" columns. 
+# The annual_dist_acres column is then summarized with the sum of all values for each group. 
+bpsdist <- bpsdist %>%
+  group_by(BpS_Name, TransitionGroupID) %>%
+  summarise(annual_dist_acres = sum(annual_dist_acres)) 
+
+# The annual_dist_acres column is then converted to a numeric format, 
+# with trailing zeros removed and rounded to 0 decimal places.
+
+###bpsdist <- bpsdist %>% 
+###mutate(annual_dist_acres = as.numeric(format(round(annual_dist_acres, 0), scientific = FALSE)))
+
+# A new data frame "sdbps_aoi_disturbances" is created, 
+# with a highlight function applied to the original data frame.
+sdbps_aoi_disturbances <- highlight_key(bpsdist)
+
+# A ggplot chart is created using the "sdbps_aoi_disturbances" data frame. 
+# The chart plots the TransitionGroupID column on the X-axis, 
+# and the annual_dist_acres column on the Y-axis. 
+# The chart has a title, labels for the X and Y axes, 
+# and the Y-axis has a continuous scale with comma formatted labels.
+bpsChart <- 
+  ggplot(sdbps_aoi_disturbances, aes(x = TransitionGroupID, y = annual_dist_acres)) +
+  geom_point(size = 3) +
+  labs(
+    title = "Annual historical disturbances",
+    x = "",
+    y = "Acres") +
+  coord_flip() +
+  scale_y_continuous(labels = comma)+
+  theme_bw()
+
+# The chart is displayed.
+#bpsChart
+
+# A chart with a dropdown list is created with tooltips disabled.
+bscols(widths = c(3, 10),
+       filter_select("BP", 
+                     "Select ecosystem", 
+                     sdbps_aoi_disturbances, 
+                     ~ BpS_Name,
+                     multiple = FALSE),
+       ggplotly(bpsChart,
+                tooltip = FALSE,
+                width = 815)
+)
+```
+
+<br>
+
+## Top 10 Existing Vegetation Types
+
+
+```{r evt chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=10}
+evtname <- data %>%
+  filter(MAP_UNIT_SYMBOL == params$MAP_UNIT_SYMBOL) %>%
+  group_by(EVT_NAME) %>%
+  summarize(ACRES = sum(ACRES)) %>%
+  arrange(desc(ACRES)) %>%
+  top_n(n = 10, wt = ACRES)
+
+# plot
+evtChart <- 
+  ggplot(data = evtname, aes(x = EVT_NAME, y = ACRES)) +
+  geom_bar(stat = "identity") +
+  labs(
+    subtitle = "Represents dominant vegetation systems ~2020",
+    caption = "Data from landfire.gov.",
+    x = "",
+    y = "Acres") +
+  scale_x_discrete(limits = rev(evtname$EVT_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
+  scale_y_continuous(labels = comma) +
+  coord_flip() +
+  theme_bw(base_size = 14)
+
+
+evtChart
+
+
+```
+
+
+## Reference vs. current succession classes for most prevalent Biophysical Settings
+
+
+
+```{r scls chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=6}
+
+
+one_lta_wrangled <- bps_scls_ref_cur_ltas %>%
+  filter(MAP_UNIT_SYMBOL == params$MAP_UNIT_SYMBOL) %>%
+  group_by(bps_aoi) %>%
+  mutate(total.count = sum(Count)) %>%
+  ungroup() %>%
+  dplyr::filter(dense_rank(desc(total.count)) < 4) %>%
+  dplyr::select(c("BpS_Name", "refLabel",  "currentPercent", "refPercent")) %>%
+  pivot_longer(
+    cols = c(`refPercent`, `currentPercent`), 
+    names_to = "refCur", 
+    values_to = "Percent"
+  )
+
+
+  
+  
+  # order classes
+  one_lta_wrangled$refLabel <- factor(one_lta_wrangled$refLabel, levels= c(
+    "Developed",
+    "Agriculture",
+    "UE",
+    "UN",
+    "E",
+    "D",
+    "C",
+    "B",
+    "A"))
+  
+  
+  
+  
+  sclasplot <-
+    ggplot(one_lta_wrangled, aes(fill=factor(refCur), y=Percent, x=refLabel)) + 
+    geom_col(width = 0.8, position = position_dodge()) +
+    coord_flip() +
+    facet_grid(. ~BpS) +
+    scale_x_discrete(limits = (levels(one_lta_wrangled$refLabel))) +
+    labs(
+      title = "Succession Classes past and present",
+      subtitle = "6 BpSs selected for illustration. Not all succession classes present in all BpSs",
+      caption = "\nData from landfire.gov.",
+      x = "",
+      y = "Percent")+
+    theme_minimal(base_size = 12)+
+    theme(plot.caption = element_text(hjust = 0, face= "italic"), #Default is hjust=1
+          plot.title.position = "plot", #NEW parameter. Apply for subtitle too.
+          plot.caption.position =  "plot") +
+    scale_fill_manual(values = c("#3d4740", "#32a852" ), # present (grey), historical (green)
+                      name = " ", 
+                      labels = c("Present",
+                                 "Past")) +
+    facet_wrap(~BpS_Name, nrow(3),labeller = labeller(BpS_Name = label_wrap_gen())) +
+    theme(panel.spacing = unit(.05, "lines"),
+          panel.border = element_rect(color = "black", fill = NA, size = 1), 
+          strip.background = element_rect(color = "black", size = 1))
+  
+  sclasplot
+
+  
+```
+
+
+

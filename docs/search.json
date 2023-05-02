@@ -187,5 +187,47 @@
     "title": "Present",
     "section": "Map of Existing Vegetation Height",
     "text": "Map of Existing Vegetation Height"
+  },
+  {
+    "objectID": "reports/demo_report.html#top-10-existing-vegetation-types",
+    "href": "reports/demo_report.html#top-10-existing-vegetation-types",
+    "title": "223Ba01 Report",
+    "section": "Top 10 Existing Vegetation Types",
+    "text": "Top 10 Existing Vegetation Types"
+  },
+  {
+    "objectID": "demo_report.html",
+    "href": "demo_report.html",
+    "title": "223Ba01 Report",
+    "section": "",
+    "text": "Below you will find charts specific to this Land Type Association that depict:\n\nHow many acres of the most prevalent historical ecosystems (called “Biophysical Settings”, BpS) were present just prior to European colonization\nAn estimate of acres disturbed by distubace type per BpS\nHow many acres of the most prevalent current ecosystems (called “Existing Vegetation Types”) were present ca2020\nPast vs. current succession class amounts for 3 most prevalent BpSs\n\nThese charts provided as a demo only. Local review and interpretation will be key to success!"
+  },
+  {
+    "objectID": "demo_report.html#top-10-biophysical-settings",
+    "href": "demo_report.html#top-10-biophysical-settings",
+    "title": "223Ba01 Report",
+    "section": "Top 10 Biophysical Settings",
+    "text": "Top 10 Biophysical Settings"
+  },
+  {
+    "objectID": "demo_report.html#top-10-existing-vegetation-types",
+    "href": "demo_report.html#top-10-existing-vegetation-types",
+    "title": "223Ba01 Report",
+    "section": "Top 10 Existing Vegetation Types",
+    "text": "Top 10 Existing Vegetation Types"
+  },
+  {
+    "objectID": "demo_report.html#historical-disturbances",
+    "href": "demo_report.html#historical-disturbances",
+    "title": "223Ba01 Report",
+    "section": "Historical disturbances",
+    "text": "Historical disturbances\n\n\n\n\n\n\nSelect ecosystem"
+  },
+  {
+    "objectID": "demo_report.html#reference-vs.-current-succession-classes-for-most-prevalent-biophysical-settings",
+    "href": "demo_report.html#reference-vs.-current-succession-classes-for-most-prevalent-biophysical-settings",
+    "title": "223Ba01 Report",
+    "section": "Reference vs. current succession classes for most prevalent Biophysical Settings",
+    "text": "Reference vs. current succession classes for most prevalent Biophysical Settings"
   }
 ]
