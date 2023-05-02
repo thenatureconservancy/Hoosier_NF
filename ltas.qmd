@@ -2,54 +2,8 @@
 title: "LTA reports"
 ---
 
-```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
-library(leaflet)
-library(sf)
-library(tidyverse)
-
-#  read shape
-shp <- st_read("data/hoosier_ltas_dissolved.shp") %>% 
-  st_transform(crs = 4326) %>%
-  arrange(MAP_UNIT_S)
-
-paths <- list.files('reports/', pattern = '.html', all.files = TRUE, full.names = TRUE) %>%
-  sort()
-  
-
-shp <- cbind(shp, paths)
-
-```
 
 ## Click on map to get demo report
 
-```{r clickable map, echo=FALSE, message=FALSE, warning=FALSE, out.width='100%'}
 
-
-leaflet(shp) %>%
-  addProviderTiles(providers$OpenStreetMap.Mapnik) %>%
-  setView(-86.468321, 38.556166, zoom = 8.2) %>%
-  addPolygons(color = "#404241", weight = 1, smoothFactor = 0.5,
-    opacity = 1.0, fillOpacity = 0.5,
-    fillColor = "#0b631a",
-    highlightOptions = highlightOptions(color = "white", weight = 3,
-      bringToFront = TRUE),
-    popup = paste0( "LTA:"
-                 , shp$MAP_UNIT_S
-                 , "<br>"
-                 , "<a href='"
-                 , shp$paths
-                 , "' target='_blank'>"
-                 , "For LTA report click Here</a>"
-               )
-    
-    
-    
-    
-    
-    )
-
-
-```
-
-
-
+<iframe src="leaflet.html" height="720" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" data-external=".5"></iframe>

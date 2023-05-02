@@ -18,6 +18,8 @@ website:
         text: Present
       - href: comparing.qmd
         text: Comparing
+      - href: ltas.qmd
+        text: LTAs
       - href: about.qmd
         text: About
 
