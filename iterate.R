@@ -1,6 +1,5 @@
 
 
-
 library(tidyverse)
 
 ltas <- unique(data$MAP_UNIT_SYMBOL)

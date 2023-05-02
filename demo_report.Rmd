@@ -31,7 +31,6 @@ bps_scls_ref_cur_ltas <- read_csv("data/bps_scls_ref_cur_ltas.csv")
 Below you will find charts specific to this Land Type Association that depict:
 
 * How many acres of the most prevalent historical ecosystems (called "Biophysical Settings", BpS) were present just prior to European colonization
-* An estimate of acres disturbed by distubace type per BpS
 * How many acres of the most prevalent current ecosystems (called "Existing Vegetation Types") were present ca2020
 * Past vs. current succession class amounts for 3 most prevalent BpSs
 
@@ -71,83 +70,7 @@ bpsChart
 <br>
 
 
-## Historical disturbances
-```{r bps disturbances, message=FALSE, warning=FALSE, echo=FALSE}
-bpsdist <- data %>%
-  filter(MAP_UNIT_SYMBOL == params$MAP_UNIT_SYMBOL) %>%
-  select(-c(1:7, 9:15)) %>%
-  group_by(BPS_MODEL) %>%
-  summarize(ACRES = sum(ACRES))
 
-
-
-bpsdist <-  left_join(bpsdist, bps_transitions, 
-                      by = c("BPS_MODEL" = "Model_Code")) %>%
-  mutate(annual_dist_acres = annual_probability*ACRES,
-         show_col_types = FALSE) 
-
-
-# The data frame is then filtered to exclude certain values in the "TransitionGroupID" column. 
-# The excluded values are: "All Fire", "All Transitions", "Alternative Succession", 
-# "Non Fire Disturbances", "Non Replacement Fire", "Optional 1", "Optional 2".
-bpsdist <- bpsdist %>%
-  filter(!TransitionGroupID %in% c("All Fire",
-                                   "All Transitions",
-                                   "Alternative Succession",
-                                   "Non Fire Disturbances",
-                                   "Non Replacement Fire",
-                                   "Optional 1",
-                                   "Optional 2")) 
-
-# The data frame is then grouped by the "BpS_Name" and "TransitionGroupID" columns. 
-# The annual_dist_acres column is then summarized with the sum of all values for each group. 
-bpsdist <- bpsdist %>%
-  group_by(BpS_Name, TransitionGroupID) %>%
-  summarise(annual_dist_acres = sum(annual_dist_acres)) 
-
-# The annual_dist_acres column is then converted to a numeric format, 
-# with trailing zeros removed and rounded to 0 decimal places.
-
-###bpsdist <- bpsdist %>% 
-###mutate(annual_dist_acres = as.numeric(format(round(annual_dist_acres, 0), scientific = FALSE)))
-
-# A new data frame "sdbps_aoi_disturbances" is created, 
-# with a highlight function applied to the original data frame.
-sdbps_aoi_disturbances <- highlight_key(bpsdist)
-
-# A ggplot chart is created using the "sdbps_aoi_disturbances" data frame. 
-# The chart plots the TransitionGroupID column on the X-axis, 
-# and the annual_dist_acres column on the Y-axis. 
-# The chart has a title, labels for the X and Y axes, 
-# and the Y-axis has a continuous scale with comma formatted labels.
-bpsChart <- 
-  ggplot(sdbps_aoi_disturbances, aes(x = TransitionGroupID, y = annual_dist_acres)) +
-  geom_point(size = 3) +
-  labs(
-    title = "Annual historical disturbances",
-    x = "",
-    y = "Acres") +
-  coord_flip() +
-  scale_y_continuous(labels = comma)+
-  theme_bw()
-
-# The chart is displayed.
-#bpsChart
-
-# A chart with a dropdown list is created with tooltips disabled.
-bscols(widths = c(3, 10),
-       filter_select("BP", 
-                     "Select ecosystem", 
-                     sdbps_aoi_disturbances, 
-                     ~ BpS_Name,
-                     multiple = FALSE),
-       ggplotly(bpsChart,
-                tooltip = FALSE,
-                width = 815)
-)
-```
-
-<br>
 
 ## Top 10 Existing Vegetation Types
 
@@ -228,7 +151,7 @@ one_lta_wrangled <- bps_scls_ref_cur_ltas %>%
     scale_x_discrete(limits = (levels(one_lta_wrangled$refLabel))) +
     labs(
       title = "Succession Classes past and present",
-      subtitle = "6 BpSs selected for illustration. Not all succession classes present in all BpSs",
+      subtitle = "3 BpSs selected for illustration. Not all succession classes present in all BpSs",
       caption = "\nData from landfire.gov.",
       x = "",
       y = "Percent")+
