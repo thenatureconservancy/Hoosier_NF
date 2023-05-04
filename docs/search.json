@@ -32,14 +32,14 @@
     "href": "comparing.html",
     "title": "Comparing Past vs. Present Conditions",
     "section": "",
-    "text": "This page explores the concept of landscape conversion by comparing historical ecosystems (LANDFIRE BpSs) to current conditions represented by LANDFIRE Vegetation layers. These broad tools can be used to visualize the changes that have taken place within the Wyoming Sagebrush Subregion of the SRFSN.\n?WHAT DOES THIS MEAN - ? As noted on the “Present” page there are differences in the classification scheme so direct comparisons should be viewed with caution."
+    "text": "Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present changes in broad ecosystem types using an interactive chord diagram. Second we compare amounts of succession classes (past and present) for the most prevalent ecosystems."
   },
   {
     "objectID": "comparing.html#summary",
     "href": "comparing.html#summary",
     "title": "Comparing Past vs. Present Conditions",
     "section": "Summary",
-    "text": "Summary"
+    "text": "Summary\n\nAlmost all developed lands were formerly ‘hardwood’ ecosystems, with some coming from other broad types such as ‘riparian’.\nA fair amount of what was mapped as ‘hardwoods’ historically was mapped as ‘conifer-hardwoods’ in the 2020 LANDFIRE data.\nFrom the succession class charts we see that most succession classes are over/under-represented for the top BpSs, suggesting a deeper look into the BpS descriptions and input datasets."
   },
   {
     "objectID": "comparing.html#looking-at-broad-changes-vegetation-conversion",
