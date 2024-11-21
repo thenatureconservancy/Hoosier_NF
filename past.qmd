@@ -12,9 +12,6 @@ Check out this 3-minute tutorial for a quick refresher on the [basics of Biophys
 
 Use this page as a starting point to explore the most prevalent BpSs in the SRFSN Wyoming Sagebrush Subregion. In addition to the charts and maps, the historical disturbance data can be directly accessed using this site. 
 
-## Summary
-
-
 
 ## Top 10 Biophysical Settings
 

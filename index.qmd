@@ -3,6 +3,12 @@ title: "Hoosier National Forest Landscape Assessment"
 author: "Team LF"
 ---
 
+<font size="4"> 
+**These LANDFIRE-Powered Landscape Assessments allow users to start exploring trends, landscape conversion and natural resource management options. **
+
+</font> 
+
+
 ## Goals of this quick demonstration
 
 We will use [LANDFIRE](https://landfire.gov/){target="blank"} products to:

@@ -3,7 +3,11 @@ title: "LTA reports"
 ---
 
 
-## Click on map to get demo report
+## Draft reports for Land Type Associations (LTAs)
+
+Using LANDFIRE data we created short reports for each LTA that have charts of historical and current ecosystems, plus comparisons of 'reference" vs. current amounts of succession classes for each historical ecosystem.
+
+**Click on the LTA of interest to get link to report**
 
 
 <iframe src="leaflet.html" height="720" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" data-external=".5"></iframe>

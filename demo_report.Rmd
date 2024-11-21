@@ -1,8 +1,14 @@
 ---
-title: "`r params$MAP_UNIT_S` Report"
+title: "LANDFIRE-Powered Report for LTA `r params$MAP_UNIT_S` "
 author: "Randy Swaty"
 date: "2023-02-20"
-output: html_document
+output: 
+  html_document:
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: true
+
 params:
   MAP_UNIT_SYMBOL: "223Ba01"
 ---
@@ -28,13 +34,15 @@ bps_scls_ref_cur_ltas <- read_csv("data/bps_scls_ref_cur_ltas.csv")
 
 ## General Background to this report
 
-Below you will find charts specific to this Land Type Association that depict:
+Using data from the [LANDFIRE](https://landfire.gov/) program we drafted these LTA-specific reports that depict:
 
 * How many acres of the most prevalent historical ecosystems (called "Biophysical Settings", BpS) were present just prior to European colonization
 * How many acres of the most prevalent current ecosystems (called "Existing Vegetation Types") were present ca2020
 * Past vs. current succession class amounts for 3 most prevalent BpSs
 
 *These charts provided as a demo only.  Local review and interpretation will be key to success!*
+
+<br>
 
 ## Top 10 Biophysical Settings 
 
@@ -49,7 +57,7 @@ bpsname <- data %>%
 # plot
 bpsChart <- 
   ggplot(data = bpsname, aes(x = BPS_NAME, y = ACRES)) +
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "#183d1f") +
   labs(
     subtitle = "Represents dominant vegetation systems pre-European colonization",
     caption = "Data from landfire.gov.",
@@ -69,8 +77,14 @@ bpsChart
 
 <br>
 
+**Learn more about Biophysical Settings:**
+
+* LANDFIRE description of the [Spatial Data](https://landfire.gov/vegetation/bps)
+* LANDFIRE description of the  [Descriptions and Models](https://landfire.gov/vegetation/bps-models)
+* Blankenship et al., (2021) [paper](https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.1002/ecs2.3484) describing development of the models and descriptions.
 
 
+<br>
 
 ## Top 10 Existing Vegetation Types
 
@@ -86,7 +100,7 @@ evtname <- data %>%
 # plot
 evtChart <- 
   ggplot(data = evtname, aes(x = EVT_NAME, y = ACRES)) +
-  geom_bar(stat = "identity") +
+  geom_bar(stat = "identity", fill = "#0e1624") +
   labs(
     subtitle = "Represents dominant vegetation systems ~2020",
     caption = "Data from landfire.gov.",
@@ -104,10 +118,20 @@ evtChart
 
 ```
 
+<br>
+
+**Learn more about Existing Vegetation Types:**
+
+* LANDFIRE description of the [concept and spatial data](https://landfire.gov/vegetation/evt)
+* [Descriptions](https://landfire.gov/sites/default/files/documents/LANDFIRE_Ecological_Systems_Descriptions_CONUS.pdf) of the Ecological Systems mapped in this dataset
+
+
 
 ## Reference vs. current succession classes for most prevalent Biophysical Settings
 
+The following chart illustrates modeled "Reference" percentages compared to mapped current percentages of [LANDFIRE Succession Classes](https://landfire.gov/vegetation/sclass) for the top 3 Biophysical Settings in the LTA.  The charts are illustrative only.  To understand what the succession classes represent it is necessary to read the descriptions that are downloadable [here](https://landfirereview.org/search.php).  
 
+<br>
 
 ```{r scls chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=6}
 
@@ -173,5 +197,14 @@ one_lta_wrangled <- bps_scls_ref_cur_ltas %>%
   
 ```
 
+<br>
+
+To learn more about succession class comparisons:
+
+* Swaty et al., (2021) [paper](https://www.mdpi.com/2073-445X/11/1/28/pdf) describing application of model results in calculation of Vegetation Departure
+* LANDFIRE description of [succession classes](https://landfire.gov/vegetation/sclass)
 
 
+<br>
+
+![](images/banner_2021.jpg)
