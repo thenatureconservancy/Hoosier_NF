@@ -71,8 +71,10 @@ tmap_mode("view")
 # create a quick interactive map
 quickmap <- qtm(shp, 
                 borders = "darkgreen", 
-                fill =  NULL,
-                check.and.fix = TRUE) 
+                fill = NULL, 
+                check.and.fix = TRUE, 
+                basemaps = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+                title = 'Hoosier National Forest',)
 
 quickmap
 
@@ -81,3 +83,8 @@ quickmap
 ```
 
 
+* All maps, input datasets and further assistance can be obtained by contacting the author, Nature Conservancy LANDFIRE ecologist [Randy Swaty](mailto:rswaty@tnc.org){target="blank"}.
+* Review is ongoing.
+* To share this web app, simply share the hyperlink.
+* Toggle between dark and light display of this site in the upper right corner of the page.
+* Learn more about LANDFIRE and The Nature Conservancy [here](about.qmd){target="blank}. 

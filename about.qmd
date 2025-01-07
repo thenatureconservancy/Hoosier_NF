@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About this Project"
 ---
 
 ## LANDFIRE & The Nature Conservancy 
@@ -69,6 +69,3 @@ Ask the [LANDFIRE Helpdesk](mailto:helpdesk@landfire.gov){target="blank"}
 Search the [LANDFIRE Helpdesk Dashboard](https://landfire.gov/helpdesk ){target="blank"} (see what others are asking and find solutions to common problems) 
 
 Search (& subscribe to) the [LANDFIRE YouTube Channel](https://www.youtube.com/@LANDFIREvideo){target="blank} (see tutorials, Office Hours, quick demonstrations) 
-
-
-

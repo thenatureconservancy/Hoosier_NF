@@ -12,21 +12,23 @@ library(tidyverse)
 
 ```
 
-Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present changes in broad ecosystem types using an interactive chord diagram. Second we compare amounts of succession classes (past and present) for the most prevalent ecosystems. 
+## Comparing Past vs. Present Conditions
+
+Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs. current vegetation patterns.
+
+-   First, we present **changes in broad ecosystem types** using an interactive comparison diagram. To present these broad ecosystem trends more effectively, we combined classifications of Existing Vegetation Types (EVT) into broader categories. The Developed EVTs of high, medium, and low intensity, and Quarries-Strip Mines-Gravel Pits EVTs were combined into one "Developed" EVT. Exotic Herbaceous and Exotic Tree-shrub EVTs were combined into one "Exotics" EVT.
+
+-   Second, we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems.
 
 ## Summary
 
 * Almost all developed lands were formerly 'hardwood' ecosystems, with some coming from other broad types such as 'riparian'.
 * A fair amount of what was mapped as 'hardwoods' historically was mapped as 'conifer-hardwoods' in the 2020 LANDFIRE data.
-* From the succession class charts we see that most succession classes are over/under-represented for the top BpSs, suggesting a deeper look into the BpS descriptions and input datasets.
 
-## Looking at broad changes, vegetation conversion
 
-This interactive 'chord' diagram allows you to explore changes on the landscape.  To use:
+** Chord Diagram**
 
-* Hover over the outer bands to see connections.  For example, if you over over the dark green outer band of the "Past Conifer" group you can see that some is now mapped as converted, some hardwood, etc., and that the majority is still mapped as conifer.
-* Alternatively, if you hover over the orange outer band of "Hardwood" you can see what the present extent of hardwoods vegetation was historically.
-* The popups contain acres for the band.
+*Note: number presented when hovering equals acres.*
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data

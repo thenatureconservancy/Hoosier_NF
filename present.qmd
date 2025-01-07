@@ -9,15 +9,23 @@ library("patchwork")
 
 ```
 
+LANDFIRE's [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets describe vegetation conditions.
 
-All outputs on this page generated with the most recent LANDFIRE [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets, which represent conditions on the ground in 2020.  
+-   Existing Vegetation Type (EVT) - represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2020.
+-   Existing Vegetation Cover (EVC) - represents the vertically projected percent cover of the live canopy layer for a 30-m cell.
+-   Existing Vegetation Height (EVH) - represents the average height of the dominant vegetation for a 30-m cell.
+
+[Read more about LANDFIRE Vegetation Products](https://landfire.gov/vegetation.php){target="blank"}
 
 
-## Summary
 
+## Most Prevalent Existing Vegetation Types
 
+<br>
 
-## Chart of most prevalent Existing Vegetation Types
+![](images/evt.jpg){width=100%}
+
+<br>
 
 ```{r evt chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
@@ -49,16 +57,12 @@ evtChart
 
 <br>
 
-## Map of most prevalent Existing Vegetation Types
+
+## Existing Vegetation Cover
 
 <br>
-
-![](images/evt.jpg){width=100%}
-
+![](images/evc.jpg){width=100%}
 <br>
-
-
-## Chart of Existing Vegetation Cover
 
 ```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evcname <- read.csv("data/evc_aoi_attributes.csv")
@@ -153,11 +157,12 @@ evcChart
 
 <br>
 
-## Map of Existing Vegetation Cover
 
-![](images/evc.jpg){width=100%}
+## Existing Vegetation Height
 
-## Chart of Existing Vegetation Height
+<br>
+![](images/evh.jpg){width=100%}
+<br>
 
 ```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 
@@ -264,9 +269,4 @@ evhChart
 ```
 
 <br>
-
-## Map of Existing Vegetation Height
-
-![](images/evh.jpg){width=100%}
-
 

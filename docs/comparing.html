@@ -35,11 +35,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -142,8 +142,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#looking-at-broad-changes-vegetation-conversion" id="toc-looking-at-broad-changes-vegetation-conversion" class="nav-link" data-scroll-target="#looking-at-broad-changes-vegetation-conversion">Looking at broad changes, vegetation conversion</a></li>
+  <li><a href="#comparing-past-vs.-present-conditions" id="toc-comparing-past-vs.-present-conditions" class="nav-link active" data-scroll-target="#comparing-past-vs.-present-conditions">Comparing Past vs.&nbsp;Present Conditions</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   <li><a href="#succession-classes-for-most-dominant-biophysical-settings" id="toc-succession-classes-for-most-dominant-biophysical-settings" class="nav-link" data-scroll-target="#succession-classes-for-most-dominant-biophysical-settings">Succession classes for most dominant Biophysical Settings</a></li>
   </ul>
 </nav>
@@ -170,23 +170,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs.current vegetation patterns. First we present changes in broad ecosystem types using an interactive chord diagram. Second we compare amounts of succession classes (past and present) for the most prevalent ecosystems.</p>
+<section id="comparing-past-vs.-present-conditions" class="level2">
+<h2 class="anchored" data-anchor-id="comparing-past-vs.-present-conditions">Comparing Past vs.&nbsp;Present Conditions</h2>
+<p>Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs.&nbsp;current vegetation patterns.</p>
+<ul>
+<li><p>First, we present <strong>changes in broad ecosystem types</strong> using an interactive comparison diagram. To present these broad ecosystem trends more effectively, we combined classifications of Existing Vegetation Types (EVT) into broader categories. The Developed EVTs of high, medium, and low intensity, and Quarries-Strip Mines-Gravel Pits EVTs were combined into one “Developed” EVT. Exotic Herbaceous and Exotic Tree-shrub EVTs were combined into one “Exotics” EVT.</p></li>
+<li><p>Second, we compare <strong>amounts of succession classes</strong> (past and present) for the most prevalent ecosystems.</p></li>
+</ul>
+</section>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <ul>
 <li>Almost all developed lands were formerly ‘hardwood’ ecosystems, with some coming from other broad types such as ‘riparian’.</li>
 <li>A fair amount of what was mapped as ‘hardwoods’ historically was mapped as ‘conifer-hardwoods’ in the 2020 LANDFIRE data.</li>
-<li>From the succession class charts we see that most succession classes are over/under-represented for the top BpSs, suggesting a deeper look into the BpS descriptions and input datasets.</li>
 </ul>
-</section>
-<section id="looking-at-broad-changes-vegetation-conversion" class="level2">
-<h2 class="anchored" data-anchor-id="looking-at-broad-changes-vegetation-conversion">Looking at broad changes, vegetation conversion</h2>
-<p>This interactive ‘chord’ diagram allows you to explore changes on the landscape. To use:</p>
-<ul>
-<li>Hover over the outer bands to see connections. For example, if you over over the dark green outer band of the “Past Conifer” group you can see that some is now mapped as converted, some hardwood, etc., and that the majority is still mapped as conifer.</li>
-<li>Alternatively, if you hover over the orange outer band of “Hardwood” you can see what the present extent of hardwoods vegetation was historically.</li>
-<li>The popups contain acres for the band.</li>
-</ul>
+<p>** Chord Diagram**</p>
+<p><em>Note: number presented when hovering equals acres.</em></p>
 <iframe src="chord.html" height="720" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" data-external=".5">
 </iframe>
 <p><br></p>
@@ -343,7 +342,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  const darkModeDefault = true;
+  const darkModeDefault = false;
   let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
